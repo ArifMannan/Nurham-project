@@ -14,218 +14,7 @@ const BlogDetails = () => {
             </div>
           </div>
           {/*====== Preloader End ======*/}
-          {/*====== Header Part Start ======*/}
-          <header className="header-two header-full-width sticky-header">
-            <div className="header-topbar d-none d-sm-block">
-              <div className="container-fluid">
-                <div className="row align-items-center justify-content-between">
-                  <div className="col-sm-auto col-12">
-                    <ul className="contact-info text-center">
-                      <li>
-                        <a href="#">
-                          <i className="fal fa-envelope" />{" "}
-                          <span
-                            className="__cf_email__"
-                            data-cfemail="771e191118370012151a161e1b5914181a"
-                          >
-                            [email&nbsp;protected]
-                          </span>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="fal fa-phone" /> 786 875 864 75 7
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="col-sm-auto col-12">
-                    <div className="social-icon text-center">
-                      <ul>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-facebook-f" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-twitter" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-behance" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-linkedin-in" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-youtube" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="header-navigation">
-              <div className="container-fluid d-flex align-items-center justify-content-between">
-                <div className="header-left">
-                  <div className="site-logo">
-                    <a href="index.html">
-                      <img src="assets/img/logo-2.png" alt="Omnivus" />
-                    </a>
-                  </div>
-                </div>
-                <div className="site-nav-menu">
-                  <ul className="primary-menu">
-                    <li>
-                      <a href="index.html">Home</a>
-                      <ul className="submenu">
-                        <li>
-                          <a href="index.html">Home 1</a>
-                        </li>
-                        <li>
-                          <a href="index-2.html">Home 2</a>
-                        </li>
-                        <li>
-                          <a href="index-3.html">Home 3</a>
-                        </li>
-                        <li>
-                          <a href="index-4.html">Home 4</a>
-                        </li>
-                        <li>
-                          <a href="index-5.html">Home 5</a>
-                        </li>
-                        <li>
-                          <a href="index-6.html">Home 6</a>
-                        </li>
-                        <li>
-                          <a href="#">OnePage</a>
-                          <ul className="submenu">
-                            <li>
-                              <a href="index-onepage.html">Home 1</a>
-                            </li>
-                            <li>
-                              <a href="index-2-onepage.html">Home 2</a>
-                            </li>
-                            <li>
-                              <a href="index-3-onepage.html">Home 3</a>
-                            </li>
-                            <li>
-                              <a href="index-4-onepage.html">Home 4</a>
-                            </li>
-                            <li>
-                              <a href="index-5-onepage.html">Home 5</a>
-                            </li>
-                            <li>
-                              <a href="index-6-onepage.html">Home 6</a>
-                            </li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a className="nav-link" href="about.html">
-                        About
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">Services</a>
-                      <ul className="submenu">
-                        <li>
-                          <a href="services.html">Services</a>
-                        </li>
-                        <li>
-                          <a href="services-details.html">Services Details</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="#">Pages</a>
-                      <ul className="submenu">
-                        <li>
-                          <a href="case-study.html">case study</a>
-                        </li>
-                        <li>
-                          <a href="case-details.html">Case Details</a>
-                        </li>
-                        <li>
-                          <a href="coming-soon.html">coming soon</a>
-                        </li>
-                        <li>
-                          <a href="error.html">error</a>
-                        </li>
-                        <li>
-                          <a href="faq.html">faq</a>
-                        </li>
-                        <li>
-                          <a href="pricing.html">pricing</a>
-                        </li>
-                        <li>
-                          <a href="shop.html">shop</a>
-                        </li>
-                        <li>
-                          <a href="shop-details.html">shop Details</a>
-                        </li>
-                        <li>
-                          <a href="cart.html">Cart</a>
-                        </li>
-                        <li>
-                          <a href="checkout.html">Checkout</a>
-                        </li>
-                        <li>
-                          <a href="privacy.html">Privacy</a>
-                        </li>
-                        <li>
-                          <a href="team.html">team</a>
-                        </li>
-                        <li>
-                          <a href="team-details.html">team details</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="current">
-                      <a href="#">Blog</a>
-                      <ul className="submenu">
-                        <li>
-                          <a href="blog-standard.html">Blog Standard</a>
-                        </li>
-                        <li>
-                          <a href="blog-grid.html">Blog Grid</a>
-                        </li>
-                        <li>
-                          <a href="blog-details.html">Blog Details</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="contact.html">Contact</a>
-                    </li>
-                  </ul>
-                  <a href="#" className="nav-close">
-                    <i className="fal fa-times" />
-                  </a>
-                </div>
-                <div className="header-extra d-flex align-items-center">
-                  <div className="nav-toggler">
-                    <span />
-                    <span />
-                    <span />
-                  </div>
-                  <div className="navbar-btn">
-                    <a href="#">Get A Quote</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </header>
-          {/*====== Header Part End ======*/}
+        
           {/*====== Page Title start ======*/}
           <section className="page-title-area">
             <div className="container">
@@ -345,49 +134,7 @@ const BlogDetails = () => {
                       </div>
                     </div>
                     <div className="divider" />
-                    <h3 className="subtitle">Setting the mood with incense</h3>
-                    <ul className="post-content-list">
-                      <li>
-                        <i className="fal fa-check" />
-                        Lorem ipsum dolor sit amet, consectetur
-                      </li>
-                      <li>
-                        <i className="fal fa-check" />
-                        Lorem ipsum dolor sit amet, consectetur
-                      </li>
-                      <li>
-                        <i className="fal fa-check" />
-                        Lorem ipsum dolor sit amet, consectetur
-                      </li>
-                      <li>
-                        <i className="fal fa-check" />
-                        Lorem ipsum dolor sit amet, consectetur
-                      </li>
-                      <li>
-                        <i className="fal fa-check" />
-                        Lorem ipsum dolor sit amet, consectetur
-                      </li>
-                      <li>
-                        <i className="fal fa-check" />
-                        Lorem ipsum dolor sit amet, consectetur
-                      </li>
-                      <li>
-                        <i className="fal fa-check" />
-                        Lorem ipsum dolor sit amet, consectetur
-                      </li>
-                      <li>
-                        <i className="fal fa-check" />
-                        Lorem ipsum dolor sit amet, consectetur
-                      </li>
-                      <li>
-                        <i className="fal fa-check" />
-                        Lorem ipsum dolor sit amet, consectetur
-                      </li>
-                      <li>
-                        <i className="fal fa-check" />
-                        Lorem ipsum dolor sit amet, consectetur
-                      </li>
-                    </ul>
+                   
                     <blockquote className="mt-40 mb-40">
                       <cite>by Hetmayar</cite>
                       Choices to take a holiday and travelling out in this
@@ -451,7 +198,7 @@ const BlogDetails = () => {
                       aliqua.
                     </p>
                     <div className="post-footer mt-40 mb-40">
-                      <div className="d-sm-flex justify-content-between">
+                      {/* <div className="d-sm-flex justify-content-between">
                         <div className="related-tag">
                           <h5>Releted Tags</h5>
                           <ul>
@@ -496,7 +243,7 @@ const BlogDetails = () => {
                             </li>
                           </ul>
                         </div>
-                      </div>
+                      </div> */}
                       <div className="divider" />
                       <div className="post-nav">
                         <div className="prev-post">
@@ -765,7 +512,7 @@ const BlogDetails = () => {
                         </ul>
                       </div>
                     </div>
-                    <div className="widget search-widget">
+                    {/* <div className="widget search-widget">
                       <h4 className="widget-title">Search Objects</h4>
                       <form action="#">
                         <input
@@ -776,7 +523,7 @@ const BlogDetails = () => {
                           <i className="fal fa-search" />
                         </button>
                       </form>
-                    </div>
+                    </div> */}
                     <div className="widget news-feed-widget">
                       <h4 className="widget-title">Popular Feeds</h4>
                       <div className="news-feed-items">
@@ -902,7 +649,7 @@ const BlogDetails = () => {
                         </li>
                       </ul>
                     </div>
-                    <div className="widget twitter-feed-widget">
+                    {/* <div className="widget twitter-feed-widget">
                       <h4 className="widget-title">Twitter Feeds</h4>
                       <div className="twitter-feeds">
                         <div className="twitter-feed-item">
@@ -1055,8 +802,8 @@ const BlogDetails = () => {
                           </a>
                         </li>
                       </ul>
-                    </div>
-                    <div className="widget tags-widget">
+                    </div> */}
+                    {/* <div className="widget tags-widget">
                       <h4 className="widget-title">Popular Tags</h4>
                       <ul>
                         <li>
@@ -1096,8 +843,8 @@ const BlogDetails = () => {
                           <a href="#">tech</a>
                         </li>
                       </ul>
-                    </div>
-                    <div className="widget ad-widget">
+                    </div> */}
+                    {/* <div className="widget ad-widget">
                       <img
                         src="assets/img/sidebar/sidebar-ad-2.jpg"
                         alt="add"
@@ -1106,7 +853,7 @@ const BlogDetails = () => {
                         <span>350x600</span>
                         <h5 className="title">Add Banner</h5>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -1229,7 +976,7 @@ const BlogDetails = () => {
               </div>
               <div className="footer-copyright">
                 <p>
-                  Copyright By@ <a href="#">WebTend</a> - 2021
+                  Copyright By@ <a href="#">PMT</a> - 2023
                 </p>
               </div>
             </div>
