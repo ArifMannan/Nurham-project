@@ -2925,8 +2925,8 @@ div#preloader .loader-cubes .loader-cube .loader-cube3::before {
   height: 100%;
   z-index: -1;
   content: "";
-  background-color: #002249;
-  opacity: 0.9;
+  background-color: #000000;
+  opacity: 0.8;
 }
 
 .banner-section-three .banner-content .title-tag {
@@ -3229,7 +3229,7 @@ div#preloader .loader-cubes .loader-cube .loader-cube3::before {
 }
 
 .service-item-two.color-3 .icon {
-  color: #006de8;
+  color: #08a351;
 }
 
 .service-item-two.color-4 .icon {
@@ -4343,7 +4343,7 @@ div#preloader .loader-cubes .loader-cube .loader-cube3::before {
 
 .features-sub {
   padding: 60px 60px 70px;
-  background: #006de8;
+  background: #08a351;
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -5877,7 +5877,7 @@ div#preloader .loader-cubes .loader-cube .loader-cube3::before {
 }
 
 .testimonial-box.color-1 p {
-  border-color: #006de8;
+  border-color: #08a351;
 }
 
 .testimonial-box.color-2 p {
