@@ -17,12 +17,16 @@ const Header = () => {
                     className="main-logo  "
                     style={{ width: "20%" }}
                   />
+                  <h6 className='text-light main-logo'> NURHAM LTD</h6>
+
+
                   <img
                     src="assets/img/nirham.png"
                     alt="nurham"
                     className="sticky-logo  "
                     style={{ width: "20%" }}
                   />
+                  <h6 className='project-color sticky-logo'> NURHAM LTD</h6>
                 </a>
               </div>
             </div>
