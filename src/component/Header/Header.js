@@ -1,10 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import mainMenu from '../../mainMenu';
 
 const Header = () => {
   return (
     <>
-      <header onClick={mainMenu} className="header-four header-full-width sticky-header">
+      <header
+        onClick={mainMenu}
+        className="header-four header-full-width sticky-header"
+      >
         <div className="header-navigation">
           <div className="container-fluid d-flex align-items-center justify-content-between">
             <div className="header-left">
@@ -28,71 +32,34 @@ const Header = () => {
             <div className="site-nav-menu">
               <ul className="primary-menu">
                 <li className="current">
-                  <a href="index.html">Home</a>
-                  <ul className="submenu">
-                    <li>
-                      <a href="index.html">Home 1</a>
-                    </li>
-                    <li>
-                      <a href="index-2.html">Home 2</a>
-                    </li>
-                    <li>
-                      <a href="index-3.html">Home 3</a>
-                    </li>
-                    <li>
-                      <a href="index-4.html">Home 4</a>
-                    </li>
-                    <li>
-                      <a href="index-5.html">Home 5</a>
-                    </li>
-                    <li>
-                      <a href="index-6.html">Home 6</a>
-                    </li>
-                    <li>
-                      <a href="#">OnePage</a>
-                      <ul className="submenu">
-                        <li>
-                          <a href="index-onepage.html">Home 1</a>
-                        </li>
-                        <li>
-                          <a href="index-2-onepage.html">Home 2</a>
-                        </li>
-                        <li>
-                          <a href="index-3-onepage.html">Home 3</a>
-                        </li>
-                        <li>
-                          <a href="index-4-onepage.html">Home 4</a>
-                        </li>
-                        <li>
-                          <a href="index-5-onepage.html">Home 5</a>
-                        </li>
-                        <li>
-                          <a href="index-6-onepage.html">Home 6</a>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
+                  <Link to="/home">
+                    <a>Home</a>{" "}
+                  </Link>
                 </li>
                 <li>
-                  <a className="nav-link" href="about.html">
-                    About
-                  </a>
+                  <Link to="/about">
+                    <a className="nav-link">About</a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">Services</a>
-                  <ul className="submenu">
+                  <Link to="/service">
+                    {" "}
+                    <a>Services</a>
+                  </Link>
+
+                  {/* <ul className="submenu">
                     <li>
                       <a href="services.html">Services</a>
                     </li>
                     <li>
                       <a href="services-details.html">Services Details</a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
                 <li>
                   <a href="#">Pages</a>
                   <ul className="submenu">
-                    <li>
+                    {/* <li>
                       <a href="case-study.html">case study</a>
                     </li>
                     <li>
@@ -103,11 +70,13 @@ const Header = () => {
                     </li>
                     <li>
                       <a href="error.html">error</a>
-                    </li>
+                    </li>*/}
                     <li>
-                      <a href="faq.html">faq</a>
+                      <Link to="/faq">
+                        <a>faq</a>
+                      </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <a href="pricing.html">pricing</a>
                     </li>
                     <li>
@@ -121,21 +90,31 @@ const Header = () => {
                     </li>
                     <li>
                       <a href="checkout.html">Checkout</a>
+                    </li> */}
+                    <li>
+                      <Link to="/privacy">
+                        {" "}
+                        <a>Privacy</a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="privacy.html">Privacy</a>
+                      <Link to="/team">
+                        {" "}
+                        <a>team</a>
+                      </Link>
                     </li>
-                    <li>
-                      <a href="team.html">team</a>
-                    </li>
-                    <li>
+                    {/* <li>
                       <a href="team-details.html">team details</a>
-                    </li>
+                    </li> */}
                   </ul>
                 </li>
                 <li>
-                  <a href="#">Blog</a>
-                  <ul className="submenu">
+                  <Link to="/blog">
+                    {" "}
+                    <a>Blog</a>
+                  </Link>
+
+                  {/* <ul className="submenu">
                     <li>
                       <a href="blog-standard.html">Blog Standard</a>
                     </li>
@@ -145,10 +124,13 @@ const Header = () => {
                     <li>
                       <a href="blog-details.html">Blog Details</a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
                 <li>
-                  <a href="contact.html">Contact</a>
+                  <Link to="/contact">
+                    {" "}
+                    <a>Contact</a>
+                  </Link>
                 </li>
               </ul>
               <a href="#" className="nav-close">
