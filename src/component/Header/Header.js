@@ -1,6 +1,5 @@
 import React from 'react';
 import mainMenu from '../../mainMenu';
-import $ from 'jquery';
 
 const Header = () => {
   return (
