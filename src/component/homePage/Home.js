@@ -42,12 +42,12 @@ const Home = () => {
                     <div className="banner-shapes">
                         <img
                             className="shape-one"
-                            src="assets/img/banner/banner-shape-1.png"
+                            src="assets/img/banner/banner-shape-4.png"
                             alt=""
                         />
                         <img
                             className="shape-two"
-                            src="assets/img/banner/banner-shape-2.png"
+                            src="assets/img/banner/banner-shape-3.png"
                             alt=""
                         />
                     </div>

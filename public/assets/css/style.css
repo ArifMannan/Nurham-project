@@ -2925,8 +2925,8 @@ div#preloader .loader-cubes .loader-cube .loader-cube3::before {
   height: 100%;
   z-index: -1;
   content: "";
-  background-color: #002249;
-  opacity: 0.9;
+  background-color: #000000;
+  opacity: 0.8;
 }
 
 .banner-section-three .banner-content .title-tag {
