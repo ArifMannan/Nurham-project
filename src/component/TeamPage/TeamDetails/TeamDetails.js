@@ -39,7 +39,7 @@ const TeamDetails = () => {
                 </div>
                 <div className="col-lg-6 col-md-10">
                   <div className="team-details-content">
-                    <h4 className="title">Rosalina D. Williamson</h4>
+                    <h4 className="title">X</h4>
                     <span>Founder</span>
                     <p className="pb-15">
                       Does any industry face a more complex audience journey and
@@ -95,7 +95,7 @@ const TeamDetails = () => {
           </section>
           {/*====== Team End ======*/}
           {/*====== Piechart Area Start ======*/}
-          <section className="piechart-section section-gap-bottom">
+          {/* <section className="piechart-section section-gap-bottom">
             <div className="container">
               <div className="row">
                 <div className="col-lg-3 col-md-6">
@@ -136,10 +136,10 @@ const TeamDetails = () => {
                 </div>
               </div>
             </div>
-          </section>
+          </section> */}
           {/*====== Piechart Area End ======*/}
           {/*====== FAQ Section Start ======*/}
-          <section
+          {/* <section
             className="faq-section section-gap bg-cover"
             style={{ backgroundImage: "url(assets/img/faq-bg.jpg)" }}
           >
@@ -182,7 +182,7 @@ const TeamDetails = () => {
                         </div>
                       </div>
                     </div>{" "}
-                    {/* card */}
+                   
                     <div className="card">
                       <div className="card-header" id="headingTwo">
                         <a
@@ -214,7 +214,7 @@ const TeamDetails = () => {
                         </div>
                       </div>
                     </div>{" "}
-                    {/* card */}
+                  
                     <div className="card">
                       <div className="card-header" id="headingThree">
                         <a
@@ -246,7 +246,7 @@ const TeamDetails = () => {
                         </div>
                       </div>
                     </div>{" "}
-                    {/* card */}
+                   
                     <div className="card">
                       <div className="card-header" id="headingFour">
                         <a
@@ -313,7 +313,7 @@ const TeamDetails = () => {
                 </div>
               </div>
             </div>
-          </section>
+          </section> */}
           {/*====== FAQ Section End ======*/}
           {/*====== Back to top start ======*/}
           <div className="back-to-top">

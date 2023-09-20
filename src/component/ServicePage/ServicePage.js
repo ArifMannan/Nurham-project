@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const ServicePage = () => {
     return (
@@ -14,7 +15,7 @@ const ServicePage = () => {
             </div>
           </div>
           {/*====== Preloader End ======*/}
-        
+
           {/*====== Page Title start ======*/}
           <section className="page-title-area">
             <div className="container">
@@ -33,131 +34,148 @@ const ServicePage = () => {
             <div className="container">
               <div className="row service-items justify-content-center">
                 <div className="col-lg-4 col-md-6 col-sm-8">
-                  <div className="service-item-eight mb-30">
-                    <div className="service-img">
-                      <img src="assets/img/service-img/07.jpg" alt="Image" />
-                    </div>
-                    <div className="services-overlay">
-                      <div className="icon">
-                        <i className="fal fa-eye-dropper" />
+                  <Link to="/servicedetails">
+                    <div className="service-item-eight mb-30">
+                      <div className="service-img">
+                        <img src="assets/img/service-img/07.jpg" alt="Image" />
                       </div>
-                      <h4 className="title">
-                        <a href="#">UI/UX Design</a>
-                      </h4>
-                      <p>
-                        The functional goal of technical content is to help
-                        people use a product successfully. The business goal
-                        must tie the content.
-                      </p>
+                      <div className="services-overlay">
+                        <div className="icon">
+                          <i className="fal fa-eye-dropper" />
+                        </div>
+                        <h4 className="title">
+                          <a href="#">Landscaping</a>
+                        </h4>
+                        <p>
+                          The functional goal of technical content is to help
+                          people use a product successfully. The business goal
+                          must tie the content.
+                        </p>
+                      </div>
                     </div>
-                  </div>
+                  </Link>
                 </div>
+
                 <div className="col-lg-4 col-md-6 col-sm-8">
-                  <div className="service-item-eight mb-30">
-                    <div className="service-img">
-                      <img src="assets/img/service-img/08.jpg" alt="Image" />
-                    </div>
-                    <div className="services-overlay">
-                      <div className="icon">
-                        <i className="fal fa-gavel" />
+                  <Link to="/servicedetails">
+                    <div className="service-item-eight mb-30">
+                      <div className="service-img">
+                        <img src="assets/img/service-img/08.jpg" alt="Image" />
                       </div>
-                      <h4 className="title">
-                        <a href="#">IT Consultancy</a>
-                      </h4>
-                      <p>
-                        The functional goal of technical content is to help
-                        people use a product successfully. The business goal
-                        must tie the content.
-                      </p>
+                      <div className="services-overlay">
+                        <div className="icon">
+                          <i className="fal fa-eye-dropper" />
+                        </div>
+                        <h4 className="title">
+                          <a href="#">Project Management</a>
+                        </h4>
+                        <p>
+                          The functional goal of technical content is to help
+                          people use a product successfully. The business goal
+                          must tie the content.
+                        </p>
+                      </div>
                     </div>
-                  </div>
+                  </Link>
                 </div>
+
                 <div className="col-lg-4 col-md-6 col-sm-8">
-                  <div className="service-item-eight mb-30">
-                    <div className="service-img">
-                      <img src="assets/img/service-img/09.jpg" alt="Image" />
-                    </div>
-                    <div className="services-overlay">
-                      <div className="icon">
-                        <i className="fal fa-map-marked-alt" />
+                  <Link to="/servicedetails">
+                    <div className="service-item-eight mb-30">
+                      <div className="service-img">
+                        <img src="assets/img/service-img/09.jpg" alt="Image" />
                       </div>
-                      <h4 className="title">
-                        <a href="#">Technology Prof.</a>
-                      </h4>
-                      <p>
-                        The functional goal of technical content is to help
-                        people use a product successfully. The business goal
-                        must tie the content.
-                      </p>
+                      <div className="services-overlay">
+                        <div className="icon">
+                          <i className="fal fa-eye-dropper" />
+                        </div>
+                        <h4 className="title">
+                          <a href="#">Engineering Consultancy</a>
+                        </h4>
+                        <p>
+                          The functional goal of technical content is to help
+                          people use a product successfully. The business goal
+                          must tie the content.
+                        </p>
+                      </div>
                     </div>
-                  </div>
+                  </Link>
                 </div>
+
                 <div className="col-lg-4 col-md-6 col-sm-8">
-                  <div className="service-item-eight mb-30">
-                    <div className="service-img">
-                      <img src="assets/img/service-img/10.jpg" alt="Image" />
-                    </div>
-                    <div className="services-overlay">
-                      <div className="icon">
-                        <i className="fal fa-hurricane" />
+                  <Link to="/servicedetails">
+                    <div className="service-item-eight mb-30">
+                      <div className="service-img">
+                        <img src="assets/img/service-img/10.jpg" alt="Image" />
                       </div>
-                      <h4 className="title">
-                        <a href="#">Web Development</a>
-                      </h4>
-                      <p>
-                        The functional goal of technical content is to help
-                        people use a product successfully. The business goal
-                        must tie the content.
-                      </p>
+                      <div className="services-overlay">
+                        <div className="icon">
+                          <i className="fal fa-eye-dropper" />
+                        </div>
+                        <h4 className="title">
+                          <a href="#">CCTV Setup & Services</a>
+                        </h4>
+                        <p>
+                          The functional goal of technical content is to help
+                          people use a product successfully. The business goal
+                          must tie the content.
+                        </p>
+                      </div>
                     </div>
-                  </div>
+                  </Link>
                 </div>
+
                 <div className="col-lg-4 col-md-6 col-sm-8">
-                  <div className="service-item-eight mb-30">
-                    <div className="service-img">
-                      <img src="assets/img/service-img/11.jpg" alt="Image" />
-                    </div>
-                    <div className="services-overlay">
-                      <div className="icon">
-                        <i className="fal fa-bezier-curve" />
+                  <Link to="/servicedetails">
+                    <div className="service-item-eight mb-30">
+                      <div className="service-img">
+                        <img src="assets/img/service-img/11.jpg" alt="Image" />
                       </div>
-                      <h4 className="title">
-                        <a href="#">Web Development</a>
-                      </h4>
-                      <p>
-                        The functional goal of technical content is to help
-                        people use a product successfully. The business goal
-                        must tie the content.
-                      </p>
+                      <div className="services-overlay">
+                        <div className="icon">
+                          <i className="fal fa-eye-dropper" />
+                        </div>
+                        <h4 className="title">
+                          <a href="#">Road Marking</a>
+                        </h4>
+                        <p>
+                          The functional goal of technical content is to help
+                          people use a product successfully. The business goal
+                          must tie the content.
+                        </p>
+                      </div>
                     </div>
-                  </div>
+                  </Link>
                 </div>
+
                 <div className="col-lg-4 col-md-6 col-sm-8">
-                  <div className="service-item-eight mb-30">
-                    <div className="service-img">
-                      <img src="assets/img/service-img/12.jpg" alt="Image" />
-                    </div>
-                    <div className="services-overlay">
-                      <div className="icon">
-                        <i className="fal fa-umbrella" />
+                  <Link to="/servicedetails">
+                    <div className="service-item-eight mb-30">
+                      <div className="service-img">
+                        <img src="assets/img/service-img/12.jpg" alt="Image" />
                       </div>
-                      <h4 className="title">
-                        <a href="#">Game Design</a>
-                      </h4>
-                      <p>
-                        The functional goal of technical content is to help
-                        people use a product successfully. The business goal
-                        must tie the content.
-                      </p>
+                      <div className="services-overlay">
+                        <div className="icon">
+                          <i className="fal fa-eye-dropper" />
+                        </div>
+                        <h4 className="title">
+                          <a href="#">Heavy Equipment & Machineries Supply</a>
+                        </h4>
+                        <p>
+                          The functional goal of technical content is to help
+                          people use a product successfully. The business goal
+                          must tie the content.
+                        </p>
+                      </div>
                     </div>
-                  </div>
+                  </Link>
                 </div>
               </div>
             </div>
           </section>
           {/*====== Service Section End ======*/}
           {/*====== Pricing Section Start ======*/}
-          <section className="pricing-section section-gap soft-blue-bg">
+          {/* <section className="pricing-section section-gap soft-blue-bg">
             <div className="container">
               <div className="row align-items-center justify-content-between">
                 <div className="col-lg-6 col-md-6">
@@ -377,7 +395,7 @@ const ServicePage = () => {
                 </div>
               </div>
             </div>
-          </section>
+          </section> */}
           {/*====== Pricing Section End ======*/}
           {/*====== Latest News Start ======*/}
           <section className="latest-news section-gap secondary-bg">
@@ -454,7 +472,6 @@ const ServicePage = () => {
             </a>
           </div>
           {/*====== Back to top start ======*/}
-         
         </>
       </div>
     );

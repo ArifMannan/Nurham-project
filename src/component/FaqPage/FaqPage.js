@@ -436,7 +436,7 @@ const FaqPage = () => {
           {/*====== Faq Section End ======*/}
           {/*====== Contact Section Start ======*/}
           <section
-            className="conatct-section-two section-gap"
+            className="conatct-section-two section-gap mb-50"
             style={{ backgroundImage: "url(assets/img/contact-bg-2.jpg)" }}
           >
             <div className="container">
@@ -498,7 +498,7 @@ const FaqPage = () => {
           </section>
           {/*====== Contact Section End ======*/}
           {/*====== Service Section Start ======*/}
-          <section className="service-section-two section-gap-top pb-90">
+          {/* <section className="service-section-two section-gap-top pb-90">
             <div className="container">
               <div className="row service-items justify-content-center">
                 <div className="col-lg-4 col-md-6 col-sm-8">
@@ -647,7 +647,7 @@ const FaqPage = () => {
                 </div>
               </div>
             </div>
-          </section>
+          </section> */}
           {/*====== Service Section End ======*/}
           {/*====== Back to top start ======*/}
           <div className="back-to-top">

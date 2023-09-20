@@ -14,7 +14,6 @@ const Contact = () => {
         </div>
         {/* <!--====== Preloader End ======--> */}
 
-       
         {/* <!--====== Page Title start ======--> */}
         <section class="page-title-area">
           <div class="container">
@@ -38,7 +37,7 @@ const Contact = () => {
                   <div class="contact-info-item text-center">
                     <i class="fal fa-phone"></i>
                     <h5 class="title">Phone Number</h5>
-                    <p>+7 (800) 123 45 69</p>
+                    <p>+88 01877-363621</p>
                   </div>
                   <div class="contact-info-item text-center">
                     <i class="fal fa-envelope"></i>
@@ -49,19 +48,22 @@ const Contact = () => {
                         class="__cf_email__"
                         data-cfemail="0b62656d644b7c6e69666a626725686466"
                       >
-                        [email&#160;protected]
+                        info@nurham.com
                       </a>
                     </p>
                   </div>
                   <div class="contact-info-item text-center">
                     <i class="fal fa-map"></i>
                     <h5 class="title">Office Location</h5>
-                    <p>12/A, London, UK</p>
+                    <p>
+                      Zobeda Manzil (4th Floor), House-02, Road No-04, Block-G,
+                      Halishahar H/E, Chattogram
+                    </p>
                   </div>
                   <div class="contact-info-item text-center">
                     <i class="fal fa-globe"></i>
                     <h5 class="title">Social Network</h5>
-                    <p>fb.com/example</p>
+                    <p>fb.com/nurham</p>
                   </div>
                 </div>
               </div>
@@ -161,8 +163,6 @@ const Contact = () => {
           </a>
         </div>
         {/* <!--====== Back to top start ======--> */}
-
-       
       </div>
     );
 };

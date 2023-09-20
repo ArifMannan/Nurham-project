@@ -105,7 +105,7 @@ const FooterPage = () => {
             </div>
             <div class="footer-copyright">
               <p>
-                Copyright By@ <a href="#">PMT</a> - 202#
+                Copyright By@ <a href="#">PMT</a> - 2023#
               </p>
             </div>
           </div>

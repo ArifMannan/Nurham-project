@@ -14,14 +14,14 @@ const ServiceDetails = () => {
             </div>
           </div>
           {/*====== Preloader End ======*/}
-        
+
           {/*====== Page Title start ======*/}
           <section className="page-title-area">
             <div className="container">
               <h2 className="title">Services Details</h2>
               <ul className="breadcrumb-nav">
                 <li>
-                  <a >Home</a>
+                  <a>Home</a>
                 </li>
                 <li className="active">About</li>
               </ul>
@@ -51,22 +51,21 @@ const ServiceDetails = () => {
                 <div className="col-lg-6 col-md-10">
                   <div className="service-details-text-block">
                     <div className="section-title with-right-border mb-40">
-                      <span className="title-tag">
-                        Search Enging Optimization
-                      </span>
+                      <span className="title-tag">Road Marking</span>
                       <h2 className="title">Nothing to do anything.</h2>
                     </div>
                     <p className="text-color-2">
-                      Does any industry face a more complex audience journey and
-                      marketing sales process than B2B technology? Consider the
-                      number of people who influence a sale, the length of the
-                      decision-making cycle, the competing interests of the
-                      people who purchase, implement, manage, and use the
-                      technology. It’s a lot meaningful content here.
+                      * Longitudinal Markings. <br /> * Transverse Markings.{" "}
+                      <br /> * Hazard Marking.
+                      <br /> * Block Marking.
+                      <br /> * Arrow Marking.
+                      <br /> * Directional Marking.
+                      <br /> * Facility Marking.
+                      <br /> * Vibration Marking
                     </p>
                     <div className="service-support-btn">
                       <p>Make A Call</p>
-                      <span>897 876 76 56 4</span>
+                      <span>+88 01877-363621</span>
                       <i className="fal fa-phone" />
                     </div>
                   </div>
@@ -76,7 +75,7 @@ const ServiceDetails = () => {
           </section>
           {/*====== Service Section End ======*/}
           {/*====== Intro vide Start ======*/}
-          <section
+          {/* <section
             className="intro-video-area"
             style={{ backgroundImage: "url(assets/img/intro-video-bg.jpg)" }}
           >
@@ -117,10 +116,10 @@ const ServiceDetails = () => {
                 </div>
               </div>
             </div>
-          </section>
+          </section> */}
           {/*====== Intro vide End ======*/}
           {/*====== Pricing Section Start ======*/}
-          <section className="pricing-section section-gap soft-blue-bg">
+          {/* <section className="pricing-section section-gap soft-blue-bg">
             <div className="container">
               <div className="row align-items-center justify-content-between">
                 <div className="col-lg-6 col-md-6">
@@ -340,10 +339,10 @@ const ServiceDetails = () => {
                 </div>
               </div>
             </div>
-          </section>
+          </section> */}
           {/*====== Pricing Section End ======*/}
           {/*====== Latest News Start ======*/}
-          <section className="latest-news section-gap secondary-bg">
+          {/* <section className="latest-news section-gap secondary-bg">
             <div className="container">
               <div className="row justify-content-center">
                 <div className="col-xl-5 col-lg-7">
@@ -407,7 +406,7 @@ const ServiceDetails = () => {
                 </div>
               </div>
             </div>
-          </section>
+          </section> */}
           {/*====== Latest News End ======*/}
           {/*====== Back to top start ======*/}
           <div className="back-to-top">
@@ -417,7 +416,6 @@ const ServiceDetails = () => {
             </a>
           </div>
           {/*====== Back to top start ======*/}
-        
         </>
       </div>
     );

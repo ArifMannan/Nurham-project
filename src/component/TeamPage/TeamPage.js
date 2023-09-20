@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const TeamPage = () => {
       
@@ -33,148 +34,166 @@ const TeamPage = () => {
             <div className="container">
               <div className="row team-members">
                 <div className="col-lg-4 col-md-6">
-                  <div className="team-member-three mb-30">
-                    <div className="member-inner">
-                      <img
-                        src="assets/img/team/leadership-1.jpg"
-                        alt="Member-Photo"
-                      />
-                      <div className="team-content">
-                        <h5 className="name">
-                          <a href="#">Harry Garrett</a>
-                        </h5>
-                        <span className="position">Design Expert</span>
+                  <Link to="/teamdetails">
+                    <div className="team-member-three mb-30">
+                      <div className="member-inner">
+                        <img
+                          src="assets/img/team/leadership-1.jpg"
+                          alt="Member-Photo"
+                        />
+                        <div className="team-content">
+                          <h5 className="name">
+                            <a href="#"> X</a>
+                          </h5>
+                          <span className="position">CEO</span>
+                        </div>
                       </div>
                     </div>
-                  </div>
+                  </Link>
                 </div>
                 <div className="col-lg-4 col-md-6">
-                  <div className="team-member-three mb-30">
-                    <div className="member-inner">
-                      <img
-                        src="assets/img/team/leadership-2.jpg"
-                        alt="Member-Photo"
-                      />
-                      <div className="team-content">
-                        <h5 className="name">
-                          <a href="#">Rosalina Devid</a>
-                        </h5>
-                        <span className="position">Marketer</span>
+                  <Link to="/teamdetails">
+                    <div className="team-member-three mb-30">
+                      <div className="member-inner">
+                        <img
+                          src="assets/img/team/leadership-2.jpg"
+                          alt="Member-Photo"
+                        />
+                        <div className="team-content">
+                          <h5 className="name">
+                            <a href="#"> X</a>
+                          </h5>
+                          <span className="position">CEO</span>
+                        </div>
                       </div>
                     </div>
-                  </div>
+                  </Link>
                 </div>
                 <div className="col-lg-4 col-md-6">
-                  <div className="team-member-three mb-30">
-                    <div className="member-inner">
-                      <img
-                        src="assets/img/team/leadership-3.jpg"
-                        alt="Member-Photo"
-                      />
-                      <div className="team-content">
-                        <h5 className="name">
-                          <a href="#">Kemina Dvlin</a>
-                        </h5>
-                        <span className="position">CEO</span>
+                  <Link to="/teamdetails">
+                    <div className="team-member-three mb-30">
+                      <div className="member-inner">
+                        <img
+                          src="assets/img/team/leadership-3.jpg"
+                          alt="Member-Photo"
+                        />
+                        <div className="team-content">
+                          <h5 className="name">
+                            <a href="#"> X</a>
+                          </h5>
+                          <span className="position">CEO</span>
+                        </div>
                       </div>
                     </div>
-                  </div>
+                  </Link>
                 </div>
                 <div className="col-lg-4 col-md-6">
-                  <div className="team-member-three mb-30">
-                    <div className="member-inner">
-                      <img
-                        src="assets/img/team/leadership-4.jpg"
-                        alt="Member-Photo"
-                      />
-                      <div className="team-content">
-                        <h5 className="name">
-                          <a href="#">Harry Garrett</a>
-                        </h5>
-                        <span className="position">Design Expert</span>
+                  <Link to="/teamdetails">
+                    <div className="team-member-three mb-30">
+                      <div className="member-inner">
+                        <img
+                          src="assets/img/team/leadership-4.jpg"
+                          alt="Member-Photo"
+                        />
+                        <div className="team-content">
+                          <h5 className="name">
+                            <a href="#"> X</a>
+                          </h5>
+                          <span className="position">CEO</span>
+                        </div>
                       </div>
                     </div>
-                  </div>
+                  </Link>
                 </div>
                 <div className="col-lg-4 col-md-6">
-                  <div className="team-member-three mb-30">
-                    <div className="member-inner">
-                      <img
-                        src="assets/img/team/leadership-5.jpg"
-                        alt="Member-Photo"
-                      />
-                      <div className="team-content">
-                        <h5 className="name">
-                          <a href="#">Rosalina Devid</a>
-                        </h5>
-                        <span className="position">Marketer</span>
+                  <Link to="/teamdetails">
+                    <div className="team-member-three mb-30">
+                      <div className="member-inner">
+                        <img
+                          src="assets/img/team/leadership-5.jpg"
+                          alt="Member-Photo"
+                        />
+                        <div className="team-content">
+                          <h5 className="name">
+                            <a href="#"> X</a>
+                          </h5>
+                          <span className="position">CEO</span>
+                        </div>
                       </div>
                     </div>
-                  </div>
+                  </Link>
                 </div>
                 <div className="col-lg-4 col-md-6">
-                  <div className="team-member-three mb-30">
-                    <div className="member-inner">
-                      <img
-                        src="assets/img/team/leadership-6.jpg"
-                        alt="Member-Photo"
-                      />
-                      <div className="team-content">
-                        <h5 className="name">
-                          <a href="#">Kemina Dvlin</a>
-                        </h5>
-                        <span className="position">CEO</span>
+                  <Link to="/teamdetails">
+                    <div className="team-member-three mb-30">
+                      <div className="member-inner">
+                        <img
+                          src="assets/img/team/leadership-6.jpg"
+                          alt="Member-Photo"
+                        />
+                        <div className="team-content">
+                          <h5 className="name">
+                            <a href="#"> X</a>
+                          </h5>
+                          <span className="position">CEO</span>
+                        </div>
                       </div>
                     </div>
-                  </div>
+                  </Link>
                 </div>
                 <div className="col-lg-4 col-md-6">
-                  <div className="team-member-three mb-30">
-                    <div className="member-inner">
-                      <img
-                        src="assets/img/team/leadership-7.jpg"
-                        alt="Member-Photo"
-                      />
-                      <div className="team-content">
-                        <h5 className="name">
-                          <a href="#">Harry Garrett</a>
-                        </h5>
-                        <span className="position">Design Expert</span>
+                  <Link to="/teamdetails">
+                    <div className="team-member-three mb-30">
+                      <div className="member-inner">
+                        <img
+                          src="assets/img/team/leadership-7.jpg"
+                          alt="Member-Photo"
+                        />
+                        <div className="team-content">
+                          <h5 className="name">
+                            <a href="#"> X</a>
+                          </h5>
+                          <span className="position">CEO</span>
+                        </div>
                       </div>
                     </div>
-                  </div>
+                  </Link>
                 </div>
                 <div className="col-lg-4 col-md-6">
-                  <div className="team-member-three mb-30">
-                    <div className="member-inner">
-                      <img
-                        src="assets/img/team/leadership-8.jpg"
-                        alt="Member-Photo"
-                      />
-                      <div className="team-content">
-                        <h5 className="name">
-                          <a href="#">Rosalina Devid</a>
-                        </h5>
-                        <span className="position">Marketer</span>
+                  <Link to="/teamdetails">
+                    <div className="team-member-three mb-30">
+                      <div className="member-inner">
+                        <img
+                          src="assets/img/team/leadership-8.jpg"
+                          alt="Member-Photo"
+                        />
+                        <div className="team-content">
+                          <h5 className="name">
+                            <a href="#"> X</a>
+                          </h5>
+                          <span className="position">CEO</span>
+                        </div>
                       </div>
                     </div>
-                  </div>
+                  </Link>
                 </div>
                 <div className="col-lg-4 col-md-6">
-                  <div className="team-member-three mb-30">
-                    <div className="member-inner">
-                      <img
-                        src="assets/img/team/leadership-9.jpg"
-                        alt="Member-Photo"
-                      />
-                      <div className="team-content">
-                        <h5 className="name">
-                          <a href="#">Kemina Dvlin</a>
-                        </h5>
-                        <span className="position">CEO</span>
+                  <Link to="/teamdetails">
+                    <div className="team-member-three mb-30">
+                      <div className="member-inner">
+                        <img
+                          src="assets/img/team/leadership-9.jpg"
+                          alt="Member-Photo"
+                        />
+                        <div className="team-content">
+                          <h5 className="name">
+                            <a href="#"> X</a>
+                          </h5>
+                          <span className="position">CEO</span>
+                        </div>
                       </div>
                     </div>
-                  </div>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -211,7 +230,10 @@ const TeamPage = () => {
           {/*====== Piechart Area Start ======*/}
           <section className="piechart-section section-gap ">
             <div className="container">
-                        <div className="row " style={{ backgroundColor: "black", borderRadius:"10px" }}>
+              <div
+                className="row "
+                style={{ backgroundColor: "black", borderRadius: "10px" }}
+              >
                 <div className="col-lg-3 col-md-6">
                   <div className="piechart-box piechart-active mt-40">
                     <div className="icon">
@@ -260,7 +282,6 @@ const TeamPage = () => {
             </a>
           </div>
           {/*====== Back to top start ======*/}
-         
         </>
       </div>
     );

@@ -3688,7 +3688,7 @@ div#preloader .loader-cubes .loader-cube .loader-cube3::before {
   left: 20px;
   height: 70px;
   width: 70px;
-  background: #08a351;
+  background: #000000;
   color: #fff;
   font-size: 30px;
   line-height: 1;
@@ -3719,7 +3719,7 @@ div#preloader .loader-cubes .loader-cube .loader-cube3::before {
 
 .service-item-eight:hover .services-overlay {
   bottom: 0;
-  background-color: rgba(12, 89, 219, 0.9);
+  background-color: #08a351;
 }
 
 .service-section.service-with-shape {
@@ -3975,7 +3975,7 @@ div#preloader .loader-cubes .loader-cube .loader-cube3::before {
 
 .service-details-text-block .service-support-btn {
   margin-top: 40px;
-  background: #ff5f6e;
+  background: #08a351;
   text-align: center;
   padding: 20px 40px;
   position: relative;
