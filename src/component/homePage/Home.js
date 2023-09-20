@@ -125,96 +125,61 @@ const Home = () => {
                     </div>
                 </section>
                 {/*====== Banner End ======*/}
-                {/*====== Feature Area Start ======*/}
-                <section className="feature-section section-gap">
-                    <div className="container">
-                        <div className="feature-text-block with-absolute-image">
-                            <div className="section-title-two mb-20">
-                                <span className="title-tag">CORE FEATURES</span>
-                                <h2 className="title">Get More Good Experience.</h2>
-                            </div>
-                            <p className="big-text mb-30">
-                                {" "}
-                                Our knowledge of computers will help us{" "}
-                            </p>
-                            <p>
-                                Does any industry face a more complex audience journey and marketing
-                                sales process than B2B technology? Consider the number of people who
-                                influence a sale, the length of the decision-making cycle, the
-                                competing interests of the people who purchase, implement, manage, and
-                                use the technology. It’s a lot meaningful content here.
-                            </p>
-                            <ul className="feature-btn mt-30">
-                                <li>
-                                    <a className="main-btn" href="about.html">
-                                        Learn More
-                                    </a>
-                                </li>
-                                <li>
-                                    <a className="main-btn main-btn-2" href="about.html">
-                                        <i className="fal fa-video" /> Intro Video
-                                    </a>
-                                </li>
-                            </ul>
-                            <div
-                                className="absolute-img wow fadeInLeft"
-                                data-wow-delay="0.3s"
-                                style={{ backgroundImage: "url(assets/img/features-thumb.jpg)" }}
-                            />
-                        </div>
-                        <div className="row service-items justify-content-center">
-                            <div className="col-lg-4 col-md-6 wow fadeInLeft" data-wow-delay="0.3s">
-                                <div className="service-item-seven mt-30">
-                                    <div className="icon">
-                                        <img src="assets/img/icon/services-1.png" alt="Icon" />
+
+                <>
+                    {/*====== About Sectioin Start ======*/}
+                    <section className="about-section section-gap">
+                        <div className="container">
+                            <div className="row justify-content-center align-items-center">
+                                <div className="col-lg-6 col-md-8 wow fadeInLeft" data-wow-delay="0.3s">
+                                    <div className="about-thumb">
+                                        <img src="assets/img/about-thumb.jpg" alt="Image" />
                                     </div>
-                                    <h4 className="title">UI/UX Design</h4>
-                                    <p>
-                                        Many aspects of computing and technology and the term is more
-                                        recognizable than before.
-                                    </p>
-                                    <a href="services-details.html" className="service-link">
-                                        <i className="fal fa-angle-right" /> Read More
-                                    </a>
                                 </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                                <div className="service-item-seven mt-30">
-                                    <div className="icon">
-                                        <img src="assets/img/icon/services-2.png" alt="Icon" />
-                                    </div>
-                                    <h4 className="title">Digital Product</h4>
-                                    <p>
-                                        Many aspects of computing and technology and the term is more
-                                        recognizable than before.
-                                    </p>
-                                    <a href="services-details.html" className="service-link">
-                                        <i className="fal fa-angle-right" /> Read More
-                                    </a>
-                                </div>
-                            </div>
-                            <div
-                                className="col-lg-4 col-md-10 wow fadeInRight"
-                                data-wow-delay="0.7s"
-                            >
-                                <div className="features-sub mt-30">
-                                    <h5 className="title">Subscribe Now</h5>
-                                    <p>
-                                        Many aspects of computing and technology and the term is more
-                                        recognizable than before.
-                                    </p>
-                                    <form action="#">
-                                        <div className="input-box">
-                                            <input type="text" placeholder="Enter your email...." />
-                                            <button>Subscribe Now</button>
+                                <div
+                                    className="col-lg-6 col-md-10 wow fadeInRight"
+                                    data-wow-delay="0.3s"
+                                >
+                                    <div className="about-text-block pl-lg-5 mt-md-gap-60">
+                                        <div className="section-title mb-40">
+                                            <span className="title-tag">About us</span>
+                                            <h2 className="title">You can't use up creativity.</h2>
                                         </div>
-                                    </form>
+                                        <p className="text-color-3">
+                                            Does any industry face a more complex audience journey and
+                                            marketing sales process than B2B technology? Consider the number
+                                            of people who influence a sale, the length of the decision-making
+                                            cycle, the competing interests of the people who purchase,
+                                            implement, manage, and use the technology. It’s a lot meaningful
+                                            content here.
+                                        </p>
+                                        <div className="about-experience pb-40 pt-20">
+                                            <h3>30</h3>
+                                            <span>
+                                                Years Of <br /> Experience
+                                            </span>
+                                        </div>
+                                        <ul className="about-btns">
+                                            <li>
+                                                <a className="main-btn" href="about.html">
+                                                    Learn More
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a className="main-btn main-btn-2" href="#">
+                                                    <i className="fal fa-video" /> Intro Video
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </section>
-                {/*====== Feature Area End ======*/}
+                    </section>
+                    {/*====== About Sectioin End ======*/}
+
+                </>
+
                 {/*====== Why Choose Us Start ======*/}
                 <section className="whu-section section-gap soft-blue-bg">
                     <div className="container">
@@ -231,7 +196,7 @@ const Home = () => {
                                         className="img-two text-right wow fadeInUp"
                                         data-wow-delay="0.5s"
                                     >
-                                        <img
+                                        <img className='imageMargin'
                                             src="assets/img/tile-gallery/choose-thumb-2.jpg"
                                             alt="Image"
                                         />
@@ -271,15 +236,220 @@ const Home = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="feature-intro-video mt-100">
-                            <img src="assets/img/intro-video-img.jpg" alt="Images" />
-                            <a href="#" className="video-popup">
-                                <i className="fal fa-play" />
-                            </a>
-                        </div>
+
+
+
+
                     </div>
                 </section>
+                <section class="why-choose-area">
+                    <div class=" container-fluid">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="section-title white-color mb-30 text-center">
+                                    <h2 class="title">We Are Very Different Form Others IT Solutions</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-center">
+                            <div class="col-lg-4 col-md-6 col-sm-9 wow fadeInLeft" data-wow-delay="0.3s">
+                                <div class="single-choose text-center mt-30">
+                                    <div class="icon-box">
+                                        <span class="rotate-dot"></span>
+                                        <i class="fal fa-laptop-code"></i>
+                                    </div>
+                                    <h4 class="title">Modify Whole System</h4>
+                                    <p>Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudan-tium
+                                        totam rem aperiam eaque ipsa</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 col-sm-9 wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="single-choose text-center mt-30">
+                                    <div class="icon-box">
+                                        <span class="rotate-dot"></span>
+                                        <i class="fal fa-server"></i>
+                                    </div>
+                                    <h4 class="title">Beneficial Strategies</h4>
+                                    <p>Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudan-tium
+                                        totam rem aperiam eaque ipsa</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 col-sm-9 wow fadeInRight" data-wow-delay="0.6s">
+                                <div class="single-choose text-center mt-30">
+                                    <div class="icon-box">
+                                        <span class="rotate-dot"></span>
+                                        <i class="fal fa-tools"></i>
+                                    </div>
+                                    <h4 class="title">Automated Software</h4>
+                                    <p>Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudan-tium
+                                        totam rem aperiam eaque ipsa</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="choose-dot">
+                        <img src="assets/img/shape/choose-dot.png" alt="" />
+                    </div>
+                    <div class="choose-shape">
+                        <img src="assets/img/shape/choose-shape.png" alt="" />
+                    </div>
+                </section>
+
                 {/*====== Why Choose Us End ======*/}
+                <>
+                    {/*====== Service Area Start ======*/}
+                    <section className="service-section section-gap service-with-shape">
+                        <div className="container">
+                            <div className="section-title white-color text-center mb-10">
+                                <div className="row justify-content-center">
+                                    <div className="col-xl-7 col-lg-9">
+                                        <span className="title-tag">Our latest services</span>
+                                        <h2 className="title">
+                                            We Offer Better Soluation For Your IT Business
+                                        </h2>
+                                    </div>
+                                </div>
+                                <div className="ring-shape" />
+                            </div>
+                            <div className="row justify-content-center">
+                                <div
+                                    className="col-lg-4 col-md-6 col-sm-9 wow fadeInUp"
+                                    data-wow-delay="0.3s"
+                                >
+                                    <div className="service-item-four mt-50">
+                                        <div className="services-thumb">
+                                            <img src="assets/img/service-img/01.jpg" alt="Service-Image" />
+                                        </div>
+                                        <div className="services-content">
+                                            <h4 className="title">Desktop Computing</h4>
+                                            <p>
+                                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                                accusantium doloremque laudantiuto-tam rem aperiam eaque ipsa
+                                                quae inventore
+                                            </p>
+                                            <a href="services-details.html" className="service-link">
+                                                Read More <i className="fal fa-long-arrow-right" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    className="col-lg-4 col-md-6 col-sm-9 wow fadeInUp"
+                                    data-wow-delay="0.4s"
+                                >
+                                    <div className="service-item-four mt-50">
+                                        <div className="services-thumb">
+                                            <img src="assets/img/service-img/02.jpg" alt="Service-Image" />
+                                        </div>
+                                        <div className="services-content">
+                                            <h4 className="title">Infrastructure Planning</h4>
+                                            <p>
+                                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                                accusantium doloremque laudantiuto-tam rem aperiam eaque ipsa
+                                                quae inventore
+                                            </p>
+                                            <a href="services-details.html" className="service-link">
+                                                Read More <i className="fal fa-long-arrow-right" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    className="col-lg-4 col-md-6 col-sm-9 wow fadeInUp"
+                                    data-wow-delay="0.5s"
+                                >
+                                    <div className="service-item-four mt-50">
+                                        <div className="services-thumb">
+                                            <img src="assets/img/service-img/03.jpg" alt="Service-Image" />
+                                        </div>
+                                        <div className="services-content">
+                                            <h4 className="title">Big Data &amp; Analytics</h4>
+                                            <p>
+                                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                                accusantium doloremque laudantiuto-tam rem aperiam eaque ipsa
+                                                quae inventore
+                                            </p>
+                                            <a href="services-details.html" className="service-link">
+                                                Read More <i className="fal fa-long-arrow-right" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    className="col-lg-4 col-md-6 col-sm-9 wow fadeInUp"
+                                    data-wow-delay="0.6s"
+                                >
+                                    <div className="service-item-four mt-50">
+                                        <div className="services-thumb">
+                                            <img src="assets/img/service-img/04.jpg" alt="Service-Image" />
+                                        </div>
+                                        <div className="services-content">
+                                            <h4 className="title">It Management System</h4>
+                                            <p>
+                                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                                accusantium doloremque laudantiuto-tam rem aperiam eaque ipsa
+                                                quae inventore
+                                            </p>
+                                            <a href="services-details.html" className="service-link">
+                                                Read More <i className="fal fa-long-arrow-right" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    className="col-lg-4 col-md-6 col-sm-9 wow fadeInUp"
+                                    data-wow-delay="0.7s"
+                                >
+                                    <div className="service-item-four mt-50">
+                                        <div className="services-thumb">
+                                            <img src="assets/img/service-img/05.jpg" alt="Service-Image" />
+                                        </div>
+                                        <div className="services-content">
+                                            <h4 className="title">Web Development</h4>
+                                            <p>
+                                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                                accusantium doloremque laudantiuto-tam rem aperiam eaque ipsa
+                                                quae inventore
+                                            </p>
+                                            <a href="services-details.html" className="service-link">
+                                                Read More <i className="fal fa-long-arrow-right" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    className="col-lg-4 col-md-6 col-sm-9 wow fadeInUp"
+                                    data-wow-delay="0.8s"
+                                >
+                                    <div className="service-item-four mt-50">
+                                        <div className="services-thumb">
+                                            <img src="assets/img/service-img/06.jpg" alt="Service-Image" />
+                                        </div>
+                                        <div className="services-content">
+                                            <h4 className="title">Dedicated IT Solution</h4>
+                                            <p>
+                                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                                accusantium doloremque laudantiuto-tam rem aperiam eaque ipsa
+                                                quae inventore
+                                            </p>
+                                            <a href="services-details.html" className="service-link">
+                                                Read More <i className="fal fa-long-arrow-right" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    {/*====== Service Area End ======*/}
+                </>
+
+
+
                 {/*====== Portfolio Section Start ======*/}
                 <section className="portfolio-area section-gap">
                     <div className="container">
@@ -486,6 +656,158 @@ const Home = () => {
                     </div>
                 </section>
                 {/*====== Counter Part End ======*/}
+                <>
+                    {/*====== Team Section Start ======*/}
+                    <section className="team-area mt-50 team-with-shape-two section-gap ">
+                        <div className="container">
+                            <div className="section-title white-color text-center m3-50">
+                                <span className="title-tag">Our Team Member</span>
+                                <h2 className="title">
+                                    Meet Our Exclusive <br /> Leadership
+                                </h2>
+                            </div>
+                            <div className="row team-members">
+                                <div
+                                    className="col-lg-3 col-md-6 col-sm-6 wow fadeInUp"
+                                    data-wow-delay="0.3s"
+                                >
+                                    <div className="team-member-two mt-30">
+                                        <div className="member-photo">
+                                            <img
+                                                src="assets/img/team/team-member-10.jpg"
+                                                alt="Member-Photo"
+                                            />
+                                        </div>
+                                        <div className="team-content">
+                                            <div className="social-icon">
+                                                <a href="#">
+                                                    <i className="fab fa-facebook-f" />
+                                                </a>
+                                                <a href="#">
+                                                    <i className="fab fa-twitter" />
+                                                </a>
+                                                <a href="#">
+                                                    <i className="fab fa-behance" />
+                                                </a>
+                                                <a href="#">
+                                                    <i className="fab fa-youtube" />
+                                                </a>
+                                                <a href="#">
+                                                    <i className="fab fa-dribbble" />
+                                                </a>
+                                            </div>
+                                            <h5 className="name">
+                                                <a href="#">Doris Jordan</a>
+                                            </h5>
+                                            <span className="position">Design Expert</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    className="col-lg-3 col-md-6 col-sm-6 wow fadeInUp"
+                                    data-wow-delay="0.4s"
+                                >
+                                    <div className="team-member-two mt-30">
+                                        <div className="member-photo">
+                                            <img src="assets/img/team/team-member-7.jpg" alt="Member-Photo" />
+                                        </div>
+                                        <div className="team-content">
+                                            <div className="social-icon">
+                                                <a href="#">
+                                                    <i className="fab fa-facebook-f" />
+                                                </a>
+                                                <a href="#">
+                                                    <i className="fab fa-twitter" />
+                                                </a>
+                                                <a href="#">
+                                                    <i className="fab fa-behance" />
+                                                </a>
+                                                <a href="#">
+                                                    <i className="fab fa-youtube" />
+                                                </a>
+                                                <a href="#">
+                                                    <i className="fab fa-dribbble" />
+                                                </a>
+                                            </div>
+                                            <h5 className="name">
+                                                <a href="#">Doris Jordan</a>
+                                            </h5>
+                                            <span className="position">Design Expert</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    className="col-lg-3 col-md-6 col-sm-6 wow fadeInUp"
+                                    data-wow-delay="0.5s"
+                                >
+                                    <div className="team-member-two mt-30">
+                                        <div className="member-photo">
+                                            <img src="assets/img/team/team-member-8.jpg" alt="Member-Photo" />
+                                        </div>
+                                        <div className="team-content">
+                                            <div className="social-icon">
+                                                <a href="#">
+                                                    <i className="fab fa-facebook-f" />
+                                                </a>
+                                                <a href="#">
+                                                    <i className="fab fa-twitter" />
+                                                </a>
+                                                <a href="#">
+                                                    <i className="fab fa-behance" />
+                                                </a>
+                                                <a href="#">
+                                                    <i className="fab fa-youtube" />
+                                                </a>
+                                                <a href="#">
+                                                    <i className="fab fa-dribbble" />
+                                                </a>
+                                            </div>
+                                            <h5 className="name">
+                                                <a href="#">Doris Jordan</a>
+                                            </h5>
+                                            <span className="position">Design Expert</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    className="col-lg-3 col-md-6 col-sm-6 wow fadeInUp"
+                                    data-wow-delay="0.6s"
+                                >
+                                    <div className="team-member-two mt-30">
+                                        <div className="member-photo">
+                                            <img src="assets/img/team/team-member-9.jpg" alt="Member-Photo" />
+                                        </div>
+                                        <div className="team-content">
+                                            <div className="social-icon">
+                                                <a href="#">
+                                                    <i className="fab fa-facebook-f" />
+                                                </a>
+                                                <a href="#">
+                                                    <i className="fab fa-twitter" />
+                                                </a>
+                                                <a href="#">
+                                                    <i className="fab fa-behance" />
+                                                </a>
+                                                <a href="#">
+                                                    <i className="fab fa-youtube" />
+                                                </a>
+                                                <a href="#">
+                                                    <i className="fab fa-dribbble" />
+                                                </a>
+                                            </div>
+                                            <h5 className="name">
+                                                <a href="#">Doris Jordan</a>
+                                            </h5>
+                                            <span className="position">Design Expert</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    {/*====== Team Section Ends ======*/}
+                </>
+
                 {/*====== Faq Section Start ======*/}
                 <section className="faq-section section-gap">
                     <div className="container">

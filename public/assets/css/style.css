@@ -3694,7 +3694,7 @@ div#preloader .loader-cubes .loader-cube .loader-cube3::before {
 
 .service-section.service-with-shape {
   position: relative;
-  margin-top: -235px;
+  margin-top: 50px;
   z-index: 22;
 }
 
@@ -5262,7 +5262,7 @@ div#preloader .loader-cubes .loader-cube .loader-cube3::before {
 .counter-section-two {
   background-size: cover;
   background-position: center;
-  background-image: url(../img/video-bg.jpg);
+  background-color: #1d591c;
   padding: 100px 0 50px;
 }
 
@@ -5659,7 +5659,7 @@ div#preloader .loader-cubes .loader-cube .loader-cube3::before {
   z-index: -1;
   background-size: cover;
   background-position: center;
-  background-image: url(../img/shape/team-bg.jpg);
+  background-color: #1d591c;
 }
 
 /*=======  Team Join  =======*/
@@ -6971,7 +6971,7 @@ div#preloader .loader-cubes .loader-cube .loader-cube3::before {
 
 /*===== Why Choose css =====*/
 .why-choose-area {
-  background-color: #101028;
+  background-color: #1d591c;
   padding-top: 113px;
   padding-bottom: 113px;
   position: relative;
@@ -11077,6 +11077,10 @@ div#preloader .loader-cubes .loader-cube .loader-cube3::before {
 
 .project-color {
   color: #08a351;
+}
+
+.project-bg-color {
+  background-color: #1d591c;
 }
 
 .privacy-area .content-box ul.list li:before {

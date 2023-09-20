@@ -26,7 +26,7 @@ const ServiceDetails = () => {
               <li className="active">About</li>
             </ul>
           </div>
-        </section>
+        </section >
         {/*====== Page Title End ======*/}
         {/*====== Service Section Start ======*/}
         <section className="service-details-section section-gap">
