@@ -21,7 +21,7 @@ const ServiceDetails = () => {
               <h2 className="title">Services Details</h2>
               <ul className="breadcrumb-nav">
                 <li>
-                  <a href="index.html">Home</a>
+                  <a >Home</a>
                 </li>
                 <li className="active">About</li>
               </ul>
