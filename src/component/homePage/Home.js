@@ -247,7 +247,7 @@ const Home = () => {
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <div class="section-title white-color mb-30 text-center">
-                                    <h2 class="title">We Are Very Different Form Others IT Solutions</h2>
+                                    <h2 class="title">We Are Very Different From Others IT Solutions</h2>
                                 </div>
                             </div>
                         </div>
@@ -309,7 +309,7 @@ const Home = () => {
                                     <div className="col-xl-7 col-lg-9">
                                         <span className="title-tag">Our latest services</span>
                                         <h2 className="title">
-                                            We Offer Better Soluation For Your IT Business
+                                            We Offer Better Solution For Your IT Business
                                         </h2>
                                     </div>
                                 </div>
