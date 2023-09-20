@@ -2,19 +2,19 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const TeamPage = () => {
-      
-    return (
-      <div>
-        <>
-          <div id="preloader">
+
+  return (
+    <div>
+      <>
+        {/* <div id="preloader">
             <div className="loader-cubes">
               <div className="loader-cube1 loader-cube" />
               <div className="loader-cube2 loader-cube" />
               <div className="loader-cube4 loader-cube" />
               <div className="loader-cube3 loader-cube" />
             </div>
-          </div>
-          {/*====== Preloader End ======*/}
+          </div> */}
+        {/*====== Preloader End ======*/}
 
           {/*====== Page Title start ======*/}
           <section className="page-title-area">

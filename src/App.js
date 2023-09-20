@@ -20,28 +20,28 @@ import mainMenu from './mainMenu';
 function App() {
   useEffect(() => {
     mainMenu();
-  
+
   }, []);
   return (
     <>
       <Header />
-    
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/home" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/blog" element={<BlogPage />} />
-          <Route path="/blogdetails" element={<BlogDetails />} />
-          <Route path="/privacy" element={<PrivacyPolicyPage />} />
-          <Route path="/team" element={<TeamPage />} />
-          <Route path="/teamdetails" element={<TeamDetails />} />
-          <Route path="/faq" element={<FaqPage />} />
-          <Route path="/service" element={<ServicePage />} />
-          <Route path="/servicedetails" element={<ServiceDetails />} />
-        </Routes>
-    
-      <FooterPage/>
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/blog" element={<BlogPage />} />
+        <Route path="/blogdetails" element={<BlogDetails />} />
+        <Route path="/privacy" element={<PrivacyPolicyPage />} />
+        <Route path="/team" element={<TeamPage />} />
+        <Route path="/teamdetails" element={<TeamDetails />} />
+        <Route path="/faq" element={<FaqPage />} />
+        <Route path="/service" element={<ServicePage />} />
+        <Route path="/servicedetails" element={<ServiceDetails />} />
+      </Routes>
+
+      <FooterPage />
     </>
   );
 }

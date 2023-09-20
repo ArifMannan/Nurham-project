@@ -20,12 +20,16 @@ const Header = () => {
                     className="main-logo  "
                     style={{ width: "20%" }}
                   />
+                  <h6 className='text-light main-logo'> NURHAM LTD</h6>
+
+
                   <img
                     src="assets/img/nirham.png"
                     alt="nurham"
                     className="sticky-logo  "
                     style={{ width: "20%" }}
                   />
+                  <h6 className='project-color sticky-logo'> NURHAM LTD</h6>
                 </a>
               </div>
             </div>
@@ -142,9 +146,6 @@ const Header = () => {
                 <span />
                 <span />
                 <span />
-              </div>
-              <div className="navbar-btn">
-                <a href="#">Get A Quote</a>
               </div>
             </div>
           </div>
