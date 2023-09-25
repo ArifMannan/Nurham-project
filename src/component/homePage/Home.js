@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -20,13 +21,18 @@ const Home = () => {
                 {/*====== Banner Start ======*/}
                 <section
                     className="banner-section-three"
+                    // style={{ backgroundColor: "#001C22" }}
                     style={{ backgroundImage: "url(assets/img/banner/banner-01.jpg)" }}
+
                 >
                     <div className="container position-relative">
                         <div className="row justify-content-center">
                             <div className="col-lg-9">
                                 <div className="banner-content text-center">
-                                    <span className="title-tag wow fadeInDown" data-wow-delay="0.3s">
+                                    <span
+                                        className="title-tag wow fadeInDown"
+                                        data-wow-delay="0.3s"
+                                    >
                                         Get Quality Item &amp; Goods
                                     </span>
                                     <h1 className="title wow fadeInLeft" data-wow-delay="0.5s">
@@ -39,18 +45,18 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="banner-shapes">
+                    {/* <div className="banner-shapes">
                         <img
                             className="shape-one"
-                            src="assets/img/banner/banner-shape-4.png"
+                            src="assets/img/banner/banner1.png"
                             alt=""
                         />
                         <img
                             className="shape-two"
-                            src="assets/img/banner/banner-shape-3.png"
+                            src="assets/img/banner/banner2.png"
                             alt=""
                         />
-                    </div>
+                    </div> */}
                     <div className="brand-slider row">
                         <div className="col">
                             <div className="brand-item">
@@ -128,12 +134,16 @@ const Home = () => {
 
                 <>
                     {/*====== About Sectioin Start ======*/}
-                    <section className="about-section section-gap">
+                    <section className="about-section section-gap mt-50">
                         <div className="container">
                             <div className="row justify-content-center align-items-center">
-                                <div className="col-lg-6 col-md-8 wow fadeInLeft" data-wow-delay="0.3s">
+                                <div
+                                    className="col-lg-6 col-md-8 wow fadeInLeft"
+                                    data-wow-delay="0.3s"
+                                >
                                     <div className="about-thumb">
-                                        <img src="assets/img/about-thumb.jpg" alt="Image" />
+
+                                        <img className='about-img-size' src="assets/img/nurham.png" alt="Image" />
                                     </div>
                                 </div>
                                 <div
@@ -146,24 +156,26 @@ const Home = () => {
                                             <h2 className="title">You can't use up creativity.</h2>
                                         </div>
                                         <p className="text-color-3">
-                                            Does any industry face a more complex audience journey and
-                                            marketing sales process than B2B technology? Consider the number
-                                            of people who influence a sale, the length of the decision-making
-                                            cycle, the competing interests of the people who purchase,
-                                            implement, manage, and use the technology. It’s a lot meaningful
-                                            content here.
+                                            Nurham Ltd. is a leading engineering firm in Bangladesh
+                                            with a strong track record of delivering complex
+                                            projects on time and within budget. We offer a
+                                            comprehensive range of services, including project
+                                            profile analysis, feasibility studies, preliminary
+                                            design studies, expert consulting, and permit/zoning
+                                            applications.
                                         </p>
                                         <div className="about-experience pb-40 pt-20">
-                                            <h3>30</h3>
+                                            <h3>2</h3>
                                             <span>
                                                 Years Of <br /> Experience
                                             </span>
                                         </div>
                                         <ul className="about-btns">
                                             <li>
-                                                <a className="main-btn" href="about.html">
-                                                    Learn More
-                                                </a>
+                                                <Link to={"/about"}>
+                                                    {" "}
+                                                    <a className="main-btn">Learn More</a>
+                                                </Link>
                                             </li>
                                             <li>
                                                 <a className="main-btn main-btn-2" href="#">
@@ -177,18 +189,21 @@ const Home = () => {
                         </div>
                     </section>
                     {/*====== About Sectioin End ======*/}
-
                 </>
 
                 {/*====== Why Choose Us Start ======*/}
-                <section className="whu-section section-gap soft-blue-bg">
+                <section className="whu-section section-gap soft-blue-bg mt-50">
                     <div className="container">
                         <div className="row justify-content-center align-content-center">
                             <div className="col-lg-6 col-md-10 order-lg-2">
                                 <div className="tile-gallery-two mb-md-gap-50">
-                                    <div className="img-one wow fadeInRight" data-wow-delay="0.3s">
+                                    <div
+                                        className="img-one wow fadeInRight"
+                                        data-wow-delay="0.3s"
+                                    >
                                         <img
-                                            src="assets/img/tile-gallery/choose-thumb-1.jpg"
+                                            className='why-img-size'
+                                            src="assets/img/tile-gallery/01.jpg"
                                             alt="Image"
                                         />
                                     </div>
@@ -196,8 +211,9 @@ const Home = () => {
                                         className="img-two text-right wow fadeInUp"
                                         data-wow-delay="0.5s"
                                     >
-                                        <img className='imageMargin'
-                                            src="assets/img/tile-gallery/choose-thumb-2.jpg"
+                                        <img
+                                            className="imageMargin why-img-size2"
+                                            src="assets/img/tile-gallery/01.jpeg"
                                             alt="Image"
                                         />
                                     </div>
@@ -213,79 +229,114 @@ const Home = () => {
                                 </div>
                                 <ul className="feature-list">
                                     <li className="wow fadeInUp" data-wow-delay="0.5s">
-                                        <h4>Information Technology</h4>
+                                        <h4>Expertise</h4>
                                         <p>
-                                            Many aspects of computing and technology and the term is more
-                                            recognizable than before.
+                                            NURHAM LTD is a team of highly skilled professionals who
+                                            are driven by their passion to provide exceptional
+                                            services and solutions to our clients. We leverage our
+                                            technical proficiency and extensive knowledge in our
+                                            respective fields to deliver the best possible results.
                                         </p>
                                     </li>
                                     <li className="wow fadeInUp" data-wow-delay="0.6s">
-                                        <h4>Easy To Edit Process</h4>
+                                        <h4>Quality</h4>
                                         <p>
-                                            Many aspects of computing and technology and the term is more
-                                            recognizable than before.
+                                            We are committed to delivering high-quality results in
+                                            everything we do. Our rigorous quality standards are
+                                            designed to ensure the satisfaction and success of our
+                                            clients. We are confident that we can deliver the
+                                            results you need to achieve your goals. We are always
+                                            willing to go the extra mile to make sure that our
+                                            clients are satisfied with our results.
                                         </p>
                                     </li>
                                     <li className="wow fadeInUp" data-wow-delay="0.7s">
-                                        <h4>Wordpress Capitable Design</h4>
+                                        <h4>Customer Focus</h4>
                                         <p>
-                                            Many aspects of computing and technology and the term is more
-                                            recognizable than before.
+                                            Customer satisfaction is our top priority. We understand
+                                            that every customer is unique, and we strive to provide
+                                            personalized attention and solutions that meet their
+                                            individual needs. We believe that building strong,
+                                            long-term relationships with our customers is essential
+                                            to our success.
+                                        </p>
+                                    </li>
+                                    <li className="wow fadeInUp" data-wow-delay="0.7s">
+                                        <h4>Adaptability </h4>
+                                        <p>
+                                            In the dynamic and ever-evolving business world,
+                                            adaptability plays a vital role. At NURHAM LTD, we
+                                            wholeheartedly embrace flexibility and agility, enabling
+                                            us to respond swiftly and effectively to the
+                                            ever-changing needs of our clients, industry trends, and
+                                            technological advancements. With a proactive approach,
+                                            we continually adjust our strategies and methods,
+                                            ensuring the delivery of optimal results at all times.
                                         </p>
                                     </li>
                                 </ul>
                             </div>
                         </div>
-
-
-
-
                     </div>
                 </section>
-                <section class="why-choose-area">
+                {/* <section class="why-choose-area">
                     <div class=" container-fluid">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <div class="section-title white-color mb-30 text-center">
-                                    <h2 class="title">We Are Very Different From Others IT Solutions</h2>
+                                    <h2 class="title">
+                                        We Are Very Different From Others IT Solutions
+                                    </h2>
                                 </div>
                             </div>
                         </div>
 
                         <div class="row justify-content-center">
-                            <div class="col-lg-4 col-md-6 col-sm-9 wow fadeInLeft" data-wow-delay="0.3s">
+                            <div
+                                class="col-lg-4 col-md-6 col-sm-9 wow fadeInLeft"
+                                data-wow-delay="0.3s"
+                            >
                                 <div class="single-choose text-center mt-30">
                                     <div class="icon-box">
                                         <span class="rotate-dot"></span>
                                         <i class="fal fa-laptop-code"></i>
                                     </div>
                                     <h4 class="title">Modify Whole System</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudan-tium
-                                        totam rem aperiam eaque ipsa</p>
+                                    <p>
+                                        optimizes and enhances your existing systems, ensuring increased efficiency, performance, and overall effectiveness.
+                                    </p>
                                 </div>
                             </div>
 
-                            <div class="col-lg-4 col-md-6 col-sm-9 wow fadeInUp" data-wow-delay="0.5s">
+                            <div
+                                class="col-lg-4 col-md-6 col-sm-9 wow fadeInUp"
+                                data-wow-delay="0.5s"
+                            >
                                 <div class="single-choose text-center mt-30">
                                     <div class="icon-box">
                                         <span class="rotate-dot"></span>
                                         <i class="fal fa-server"></i>
                                     </div>
                                     <h4 class="title">Beneficial Strategies</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudan-tium
-                                        totam rem aperiam eaque ipsa</p>
+                                    <p>
+                                        provides clients with tailored, data-driven approaches to optimize their operations, achieve goals, and maximize results.
+                                    </p>
                                 </div>
                             </div>
 
-                            <div class="col-lg-4 col-md-6 col-sm-9 wow fadeInRight" data-wow-delay="0.6s">
+                            <div
+                                class="col-lg-4 col-md-6 col-sm-9 wow fadeInRight"
+                                data-wow-delay="0.6s"
+                            >
                                 <div class="single-choose text-center mt-30">
                                     <div class="icon-box">
                                         <span class="rotate-dot"></span>
                                         <i class="fal fa-tools"></i>
                                     </div>
                                     <h4 class="title">Automated Software</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudan-tium
-                                        totam rem aperiam eaque ipsa</p>
+                                    <p>
+                                        streamlines tasks, improves efficiency, and optimizes processes, delivering productivity and precision to your operations.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -297,7 +348,7 @@ const Home = () => {
                     <div class="choose-shape">
                         <img src="assets/img/shape/choose-shape.png" alt="" />
                     </div>
-                </section>
+                </section> */}
 
                 {/*====== Why Choose Us End ======*/}
                 <>
@@ -309,7 +360,7 @@ const Home = () => {
                                     <div className="col-xl-7 col-lg-9">
                                         <span className="title-tag">Our latest services</span>
                                         <h2 className="title">
-                                            We Offer Better Solution For Your IT Business
+                                            We Offer Better Solution For Your Business
                                         </h2>
                                     </div>
                                 </div>
@@ -322,16 +373,21 @@ const Home = () => {
                                 >
                                     <div className="service-item-four mt-50">
                                         <div className="services-thumb">
-                                            <img src="assets/img/service-img/01.jpg" alt="Service-Image" />
+                                            <img
+                                                className='service-img-size'
+                                                src="assets/img/service-img/landscaping1.jpg"
+                                                alt="Service-Image"
+                                            />
                                         </div>
                                         <div className="services-content">
-                                            <h4 className="title">Desktop Computing</h4>
+                                            <h4 className="title"> Landscaping </h4>
                                             <p>
-                                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                                accusantium doloremque laudantiuto-tam rem aperiam eaque ipsa
-                                                quae inventore
+                                                Transforming outdoor spaces with expert landscaping: design, installation, and maintenance for stunning, eco-friendly landscapes that enhance your property's beauty.
                                             </p>
-                                            <a href="services-details.html" className="service-link">
+                                            <a
+                                                href="/service"
+                                                className="service-link"
+                                            >
                                                 Read More <i className="fal fa-long-arrow-right" />
                                             </a>
                                         </div>
@@ -343,16 +399,21 @@ const Home = () => {
                                 >
                                     <div className="service-item-four mt-50">
                                         <div className="services-thumb">
-                                            <img src="assets/img/service-img/02.jpg" alt="Service-Image" />
+                                            <img
+                                                className='service-img-size'
+                                                src="assets/img/service-img/projectmanagement.jpg"
+                                                alt="Service-Image"
+                                            />
                                         </div>
                                         <div className="services-content">
-                                            <h4 className="title">Infrastructure Planning</h4>
+                                            <h4 className="title"> Project Management </h4>
                                             <p>
-                                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                                accusantium doloremque laudantiuto-tam rem aperiam eaque ipsa
-                                                quae inventore
+                                                Our project management service ensures efficient planning, execution, and monitoring, optimizing resources and timelines for successful project outcomes.
                                             </p>
-                                            <a href="services-details.html" className="service-link">
+                                            <a
+                                                href="/service"
+                                                className="service-link"
+                                            >
                                                 Read More <i className="fal fa-long-arrow-right" />
                                             </a>
                                         </div>
@@ -364,16 +425,21 @@ const Home = () => {
                                 >
                                     <div className="service-item-four mt-50">
                                         <div className="services-thumb">
-                                            <img src="assets/img/service-img/03.jpg" alt="Service-Image" />
+                                            <img
+                                                className='service-img-size'
+                                                src="assets/img/service-img/engineering-consulting.jpg"
+                                                alt="Service-Image"
+                                            />
                                         </div>
                                         <div className="services-content">
-                                            <h4 className="title">Big Data &amp; Analytics</h4>
+                                            <h4 className="title">	Engineering Consultancy</h4>
                                             <p>
-                                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                                accusantium doloremque laudantiuto-tam rem aperiam eaque ipsa
-                                                quae inventore
+                                                Comprehensive engineering consultancy: expert guidance, innovative solutions, and technical expertise to drive project success and meet client objectives efficiently.
                                             </p>
-                                            <a href="services-details.html" className="service-link">
+                                            <a
+                                                href="/service"
+                                                className="service-link"
+                                            >
                                                 Read More <i className="fal fa-long-arrow-right" />
                                             </a>
                                         </div>
@@ -385,16 +451,21 @@ const Home = () => {
                                 >
                                     <div className="service-item-four mt-50">
                                         <div className="services-thumb">
-                                            <img src="assets/img/service-img/04.jpg" alt="Service-Image" />
+                                            <img
+                                                className='service-img-size'
+                                                src="assets/img/service-img/cctv-security.jpg"
+                                                alt="Service-Image"
+                                            />
                                         </div>
                                         <div className="services-content">
-                                            <h4 className="title">It Management System</h4>
+                                            <h4 className="title">	CCTV Setup &amp; Services</h4>
                                             <p>
-                                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                                accusantium doloremque laudantiuto-tam rem aperiam eaque ipsa
-                                                quae inventore
+                                                Professional CCTV setup and services: secure, high-quality surveillance solutions for safeguarding assets, enhancing safety, and monitoring your premises effectively.
                                             </p>
-                                            <a href="services-details.html" className="service-link">
+                                            <a
+                                                href="/service"
+                                                className="service-link"
+                                            >
                                                 Read More <i className="fal fa-long-arrow-right" />
                                             </a>
                                         </div>
@@ -406,16 +477,21 @@ const Home = () => {
                                 >
                                     <div className="service-item-four mt-50">
                                         <div className="services-thumb">
-                                            <img src="assets/img/service-img/05.jpg" alt="Service-Image" />
+                                            <img
+                                                className='service-img-size'
+                                                src="assets/img/service-img/road-marking.jpg"
+                                                alt="Service-Image"
+                                            />
                                         </div>
                                         <div className="services-content">
-                                            <h4 className="title">Web Development</h4>
+                                            <h4 className="title"> Road Marking </h4>
                                             <p>
-                                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                                accusantium doloremque laudantiuto-tam rem aperiam eaque ipsa
-                                                quae inventore
+                                                Our road marking services include painting, striping, and signage installation. We ensure safety and organization on roads and parking lots through expert markings and clear signage.
                                             </p>
-                                            <a href="services-details.html" className="service-link">
+                                            <a
+                                                href="/service"
+                                                className="service-link"
+                                            >
                                                 Read More <i className="fal fa-long-arrow-right" />
                                             </a>
                                         </div>
@@ -427,16 +503,21 @@ const Home = () => {
                                 >
                                     <div className="service-item-four mt-50">
                                         <div className="services-thumb">
-                                            <img src="assets/img/service-img/06.jpg" alt="Service-Image" />
+                                            <img
+                                                className='service-img-size'
+                                                src="assets/img/service-img/equipment.jpg"
+                                                alt="Service-Image"
+                                            />
                                         </div>
                                         <div className="services-content">
-                                            <h4 className="title">Dedicated IT Solution</h4>
+                                            <h4 className="title">Equipment & Machineries</h4>
                                             <p>
-                                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                                accusantium doloremque laudantiuto-tam rem aperiam eaque ipsa
-                                                quae inventore
+                                                We aim to be a trusted source for reliable heavy equipment and accessories, meeting our clients' operational needs with high-quality products and exceptional customer support.
                                             </p>
-                                            <a href="services-details.html" className="service-link">
+                                            <a
+                                                href="/service"
+                                                className="service-link"
+                                            >
                                                 Read More <i className="fal fa-long-arrow-right" />
                                             </a>
                                         </div>
@@ -447,8 +528,6 @@ const Home = () => {
                     </section>
                     {/*====== Service Area End ======*/}
                 </>
-
-
 
                 {/*====== Portfolio Section Start ======*/}
                 <section className="portfolio-area section-gap">
@@ -469,7 +548,9 @@ const Home = () => {
                                 <div className="portfolio-item-two mt-30">
                                     <div
                                         className="portfolio-img"
-                                        style={{ backgroundImage: "url(assets/img/portfolio/08.jpg)" }}
+                                        style={{
+                                            backgroundImage: "url(assets/img/portfolio/08.jpg)",
+                                        }}
                                     >
                                         {" "}
                                     </div>
@@ -479,8 +560,8 @@ const Home = () => {
                                             <a href="#">Has ballooned to encomp ass many aspects</a>
                                         </h5>
                                         <p>
-                                            Today, the term Information Technology (IT) has ballooned to
-                                            encompass many aspects of computing
+                                            Today, the term Information Technology (IT) has
+                                            ballooned to encompass many aspects of computing
                                         </p>
                                     </div>
                                 </div>
@@ -492,18 +573,22 @@ const Home = () => {
                                 <div className="portfolio-item-two mt-30">
                                     <div
                                         className="portfolio-img"
-                                        style={{ backgroundImage: "url(assets/img/portfolio/09.jpg)" }}
+                                        style={{
+                                            backgroundImage: "url(assets/img/portfolio/09.jpg)",
+                                        }}
                                     >
                                         {" "}
                                     </div>
                                     <div className="portfolio-content">
                                         <span className="category">IT / Solutions </span>
                                         <h5 className="title">
-                                            <a href="#">Today, the term Inform tion Technology (IT)</a>
+                                            <a href="#">
+                                                Today, the term Inform tion Technology (IT)
+                                            </a>
                                         </h5>
                                         <p>
-                                            Today, the term Information Technology (IT) has ballooned to
-                                            encompass many aspects of computing
+                                            Today, the term Information Technology (IT) has
+                                            ballooned to encompass many aspects of computing
                                         </p>
                                     </div>
                                 </div>
@@ -515,7 +600,9 @@ const Home = () => {
                                 <div className="portfolio-item-two mt-30">
                                     <div
                                         className="portfolio-img"
-                                        style={{ backgroundImage: "url(assets/img/portfolio/10.jpg)" }}
+                                        style={{
+                                            backgroundImage: "url(assets/img/portfolio/10.jpg)",
+                                        }}
                                     >
                                         {" "}
                                     </div>
@@ -525,8 +612,8 @@ const Home = () => {
                                             <a href="#">Aspects of computing and technology </a>
                                         </h5>
                                         <p>
-                                            Today, the term Information Technology (IT) has ballooned to
-                                            encompass many aspects of computing
+                                            Today, the term Information Technology (IT) has
+                                            ballooned to encompass many aspects of computing
                                         </p>
                                     </div>
                                 </div>
@@ -538,7 +625,9 @@ const Home = () => {
                                 <div className="portfolio-item-two mt-30">
                                     <div
                                         className="portfolio-img"
-                                        style={{ backgroundImage: "url(assets/img/portfolio/11.jpg)" }}
+                                        style={{
+                                            backgroundImage: "url(assets/img/portfolio/11.jpg)",
+                                        }}
                                     >
                                         {" "}
                                     </div>
@@ -548,8 +637,8 @@ const Home = () => {
                                             <a href="#">Has ballooned to encomp ass many aspects</a>
                                         </h5>
                                         <p>
-                                            Today, the term Information Technology (IT) has ballooned to
-                                            encompass many aspects of computing
+                                            Today, the term Information Technology (IT) has
+                                            ballooned to encompass many aspects of computing
                                         </p>
                                     </div>
                                 </div>
@@ -561,18 +650,22 @@ const Home = () => {
                                 <div className="portfolio-item-two mt-30">
                                     <div
                                         className="portfolio-img"
-                                        style={{ backgroundImage: "url(assets/img/portfolio/12.jpg)" }}
+                                        style={{
+                                            backgroundImage: "url(assets/img/portfolio/12.jpg)",
+                                        }}
                                     >
                                         {" "}
                                     </div>
                                     <div className="portfolio-content">
                                         <span className="category">IT / Solutions </span>
                                         <h5 className="title">
-                                            <a href="#">Today, the term Inform tion Technology (IT)</a>
+                                            <a href="#">
+                                                Today, the term Inform tion Technology (IT)
+                                            </a>
                                         </h5>
                                         <p>
-                                            Today, the term Information Technology (IT) has ballooned to
-                                            encompass many aspects of computing
+                                            Today, the term Information Technology (IT) has
+                                            ballooned to encompass many aspects of computing
                                         </p>
                                     </div>
                                 </div>
@@ -584,7 +677,9 @@ const Home = () => {
                                 <div className="portfolio-item-two mt-30">
                                     <div
                                         className="portfolio-img"
-                                        style={{ backgroundImage: "url(assets/img/portfolio/13.jpg)" }}
+                                        style={{
+                                            backgroundImage: "url(assets/img/portfolio/13.jpg)",
+                                        }}
                                     >
                                         {" "}
                                     </div>
@@ -594,8 +689,8 @@ const Home = () => {
                                             <a href="#">Aspects of computing and technology </a>
                                         </h5>
                                         <p>
-                                            Today, the term Information Technology (IT) has ballooned to
-                                            encompass many aspects of computing
+                                            Today, the term Information Technology (IT) has
+                                            ballooned to encompass many aspects of computing
                                         </p>
                                     </div>
                                 </div>
@@ -605,7 +700,7 @@ const Home = () => {
                 </section>
                 {/*====== Portfolio Section Ends ======*/}
                 {/*====== Counter Part Start ======*/}
-                <section className="counter-section-two">
+                {/* <section className="counter-section-two">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-3 col-sm-6">
@@ -614,7 +709,7 @@ const Home = () => {
                                         <i className="fal fa-box" />
                                     </div>
                                     <div className="content">
-                                        <span className="counter">869</span>
+                                        <span className="counter">04</span>
                                         <h6 className="title">Project We Have Done </h6>
                                     </div>
                                 </div>
@@ -625,7 +720,7 @@ const Home = () => {
                                         <i className="fal fa-users" />
                                     </div>
                                     <div className="content">
-                                        <span className="counter">100</span>
+                                        <span className="counter">20</span>
                                         <h6 className="title">People Involved With Us</h6>
                                     </div>
                                 </div>
@@ -636,7 +731,7 @@ const Home = () => {
                                         <i className="fal fa-globe" />
                                     </div>
                                     <div className="content">
-                                        <span className="counter">50</span>
+                                        <span className="counter">02</span>
                                         <h6 className="title">We Are Worldwide</h6>
                                     </div>
                                 </div>
@@ -647,18 +742,18 @@ const Home = () => {
                                         <i className="fal fa-award" />
                                     </div>
                                     <div className="content">
-                                        <span className="counter">20</span>
+                                        <span className="counter">03</span>
                                         <h6 className="title">We Got Too Much Awards</h6>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
                 {/*====== Counter Part End ======*/}
                 <>
                     {/*====== Team Section Start ======*/}
-                    <section className="team-area mt-50 team-with-shape-two section-gap ">
+                    {/* <section className="team-area mt-50 team-with-shape-two section-gap ">
                         <div className="container">
                             <div className="section-title white-color text-center m3-50">
                                 <span className="title-tag">Our Team Member</span>
@@ -709,7 +804,10 @@ const Home = () => {
                                 >
                                     <div className="team-member-two mt-30">
                                         <div className="member-photo">
-                                            <img src="assets/img/team/team-member-7.jpg" alt="Member-Photo" />
+                                            <img
+                                                src="assets/img/team/team-member-7.jpg"
+                                                alt="Member-Photo"
+                                            />
                                         </div>
                                         <div className="team-content">
                                             <div className="social-icon">
@@ -742,7 +840,10 @@ const Home = () => {
                                 >
                                     <div className="team-member-two mt-30">
                                         <div className="member-photo">
-                                            <img src="assets/img/team/team-member-8.jpg" alt="Member-Photo" />
+                                            <img
+                                                src="assets/img/team/team-member-8.jpg"
+                                                alt="Member-Photo"
+                                            />
                                         </div>
                                         <div className="team-content">
                                             <div className="social-icon">
@@ -775,7 +876,10 @@ const Home = () => {
                                 >
                                     <div className="team-member-two mt-30">
                                         <div className="member-photo">
-                                            <img src="assets/img/team/team-member-9.jpg" alt="Member-Photo" />
+                                            <img
+                                                src="assets/img/team/team-member-9.jpg"
+                                                alt="Member-Photo"
+                                            />
                                         </div>
                                         <div className="team-content">
                                             <div className="social-icon">
@@ -804,12 +908,12 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                    </section>
+                    </section> */}
                     {/*====== Team Section Ends ======*/}
                 </>
 
                 {/*====== Faq Section Start ======*/}
-                <section className="faq-section section-gap">
+                {/* <section className="faq-section section-gap">
                     <div className="container">
                         <div className="row align-items-center justify-content-center">
                             <div
@@ -861,11 +965,11 @@ const Home = () => {
                                         >
                                             <div className="card-body">
                                                 <p>
-                                                    Today, the term Information Technology (IT) has ballooned to
-                                                    encompass is real. Today, the term Information Technology
-                                                    (IT) has ballooned to encompass is real.Today, the term
-                                                    Information Technology (IT) has ballooned to encompass is
-                                                    real.{" "}
+                                                    Today, the term Information Technology (IT) has
+                                                    ballooned to encompass is real. Today, the term
+                                                    Information Technology (IT) has ballooned to
+                                                    encompass is real.Today, the term Information
+                                                    Technology (IT) has ballooned to encompass is real.{" "}
                                                 </p>
                                             </div>
                                         </div>
@@ -891,11 +995,11 @@ const Home = () => {
                                         >
                                             <div className="card-body">
                                                 <p>
-                                                    Today, the term Information Technology (IT) has ballooned to
-                                                    encompass is real. Today, the term Information Technology
-                                                    (IT) has ballooned to encompass is real.Today, the term
-                                                    Information Technology (IT) has ballooned to encompass is
-                                                    real.{" "}
+                                                    Today, the term Information Technology (IT) has
+                                                    ballooned to encompass is real. Today, the term
+                                                    Information Technology (IT) has ballooned to
+                                                    encompass is real.Today, the term Information
+                                                    Technology (IT) has ballooned to encompass is real.{" "}
                                                 </p>
                                             </div>
                                         </div>
@@ -921,11 +1025,11 @@ const Home = () => {
                                         >
                                             <div className="card-body">
                                                 <p>
-                                                    Today, the term Information Technology (IT) has ballooned to
-                                                    encompass is real. Today, the term Information Technology
-                                                    (IT) has ballooned to encompass is real.Today, the term
-                                                    Information Technology (IT) has ballooned to encompass is
-                                                    real.{" "}
+                                                    Today, the term Information Technology (IT) has
+                                                    ballooned to encompass is real. Today, the term
+                                                    Information Technology (IT) has ballooned to
+                                                    encompass is real.Today, the term Information
+                                                    Technology (IT) has ballooned to encompass is real.{" "}
                                                 </p>
                                             </div>
                                         </div>
@@ -951,11 +1055,11 @@ const Home = () => {
                                         >
                                             <div className="card-body">
                                                 <p>
-                                                    Today, the term Information Technology (IT) has ballooned to
-                                                    encompass is real. Today, the term Information Technology
-                                                    (IT) has ballooned to encompass is real.Today, the term
-                                                    Information Technology (IT) has ballooned to encompass is
-                                                    real.{" "}
+                                                    Today, the term Information Technology (IT) has
+                                                    ballooned to encompass is real. Today, the term
+                                                    Information Technology (IT) has ballooned to
+                                                    encompass is real.Today, the term Information
+                                                    Technology (IT) has ballooned to encompass is real.{" "}
                                                 </p>
                                             </div>
                                         </div>
@@ -964,48 +1068,8 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
                 {/*====== Faq Section End ======*/}
-                {/*====== Contact section start ======*/}
-                <section className="conatct-section-three soft-blue-bg section-gap">
-                    <div className="container">
-                        <div className="row align-items-center justify-content-center">
-                            <div className="col-lg-6 col-md-10">
-                                <div className="section-title-two text-left mb-45">
-                                    <span>Get In Touch</span>
-                                    <h2 className="title">Estimate For Your Projects.</h2>
-                                </div>
-                                <div className="form-area">
-                                    <form action="#">
-                                        <div className="input-box">
-                                            <input type="text" placeholder="Enter your name" />
-                                        </div>
-                                        <div className="input-box mt-20">
-                                            <input type="email" placeholder="Enter your email" />
-                                        </div>
-                                        <div className="input-box mt-20">
-                                            <textarea placeholder="Enter your message" defaultValue={""} />
-                                        </div>
-                                        <div className="input-box mt-20">
-                                            <button className="main-btn" type="submit">
-                                                Submit Now
-                                            </button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                            <div className="col-lg-6 col-md-10">
-                                <div className="contact-map-two mt-md-gap-50">
-                                    <iframe
-                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993207.564767118!2d-77.9807899414373!3d42.92219345357043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1569310771254!5m2!1sen!2sbd"
-                                        allowFullScreen=""
-                                    />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                {/*====== Contact section End ======*/}
                 {/*====== Back to top start ======*/}
                 <div className="back-to-top">
                     <a href="#">
@@ -1014,9 +1078,7 @@ const Home = () => {
                     </a>
                 </div>
                 {/*====== Back to top start ======*/}
-
             </>
-
         </div>
     );
 };

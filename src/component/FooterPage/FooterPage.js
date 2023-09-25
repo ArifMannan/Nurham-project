@@ -1,118 +1,83 @@
 import React from 'react';
 
 const FooterPage = () => {
-    return (
-      <div>
-        {/* <!--====== Footer PART START ======--> */}
-        <footer
-          class="footer-area footer-area-two"
-          style={{ backgroundImage: "url(assets/img/footer-bg.jpg)" }}
-        >
-          <div class="container">
-            <div class="row footer-widgets">
-              <div class="col-lg-4 col-md-6 col-md-7">
-                <div class="widget about-widget">
-                  <div class="logo">
-                    <img
-                      className="w-25"
-                      src="assets/img/nirham.png"
-                      alt="Image"
-                    />
-                  </div>
-                  <p>
-                    Nurham Ltd. is a leading engineering firm in Bangladesh with
-                    a strong track record of delivering complex projects on time
-                    and within budget. We offer a comprehensive range of
-                    services, including project profile analysis, feasibility
-                    studies, preliminary design studies, expert consulting, and
-                    permit/zoning applications.
-                  </p>
-                  <p>
-                    Our team of experienced professionals has the expertise and
-                    capabilities to successfully handle a wide range of
-                    projects, from small-scale renovations to large-scale
-                    infrastructure developments
-                  </p>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-6 offset-xl-1">
-                <div class="widget nav-widget">
-                  <h4 class="widget-title">Pages</h4>
-                  <div class="footer-list">
-                    <ul>
-                      <li>
-                        <a href="#">
-                          <i class="fal fa-angle-right"></i> Home
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="fal fa-angle-right"></i> Services
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="fal fa-angle-right"></i> About
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="fal fa-angle-right"></i> Career
-                        </a>
-                      </li>
-                    </ul>
-                    <ul>
-                      <li>
-                        <a href="#">
-                          <i class="fal fa-angle-right"></i> Details
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="fal fa-angle-right"></i> Contact
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="fal fa-angle-right"></i> Team
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="fal fa-angle-right"></i> Terms
-                        </a>
-                      </li>
-                    </ul>
+  return (
+    <div>
+      {/* <!--====== Footer PART START ======--> */}
+      <footer
+        class="footer-area footer-area-two"
+        style={{ backgroundImage: "url(assets/img/footer-bg.jpg)" }}
+      >
+        <div class="container pt-5">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+
+
+              <div class="mb-md-gap-50">
+                <div class="contact-info-item d-flex align-items-center justify-content-evenly">
+                  <div > <i class="fal fa-phone contact-info-i"></i></div>
+                  <div>
+                    <h5 class="contact-info-title text-light">Phone Number</h5>
+                    <p className='contact-info-p '>+88 01877-363621</p>
                   </div>
                 </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-md-6">
-                <div class="widget contact-widget">
-                  <h4 class="widget-title">Working Hours</h4>
-                  <ul>
-                    <li>Sunday - Thursday: 9:00 - 5:00</li>
-                  </ul>
-                  <p>
-                    <span>For more then 30 years,</span> IT Service has been a
-                    reliable partner in the field of logistics and cargo
-                    forwarding.
-                  </p>
-                  <a href="#">
-                    <i class="fal fa-angle-right"></i>Discover More
-                  </a>
+                <div class="contact-info-item d-flex align-items-center">
+                  <div>  <i class="fal fa-envelope contact-info-i"></i></div>
+                  <div>  <h5 class="contact-info-title text-light">Email Address</h5>
+                    <p className='contact-info-p '>
+                      <a
+                        href="/cdn-cgi/l/email-protection"
+                        class="__cf_email__"
+                        data-cfemail="0b62656d644b7c6e69666a626725686466"
+                      >
+                        info@nurham.com
+                      </a>
+                    </p></div>
+
+
                 </div>
+                <div class="contact-info-item d-flex align-items-center">
+                  <div><i class="fal fa-map contact-info-i"></i></div>
+                  <div>
+                    <h5 class="contact-info-title text-light">Our Location</h5>
+                    <p className='contact-info-p '>
+                      Zobeda Manzil (4th Floor), House-02, Road No-04, Block-G,
+                      Halishahar H/E, Chattogram
+                    </p>
+                  </div>
+
+                </div>
+                {/* <div class="contact-info-item d-flex align-items-center">
+                  <div>
+                    <i class="fal fa-globe contact-info-i"></i>
+                  </div>
+                  <div>
+                    <h5 class="contact-info-title text-light">Social Network</h5>
+                    <p className='contact-info-p '>fb.com/nurham</p>
+                  </div>
+                </div> */}
               </div>
+
             </div>
-            <div class="footer-copyright">
-              <p>
-                Copyright By@ <a href="#">PMT</a> - 202#
-              </p>
+            <div class="col-lg-6">
+              <div>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7496149.95373021!2d85.84621250756469!3d23.452185887261447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30adaaed80e18ba7%3A0xf2d28e0c4e1fc6b!2sBangladesh!5e0!3m2!1sen!2sbd!4v1569913375800!5m2!1sen!2sbd"
+                  width="600" height="200"
+                ></iframe>
+              </div>
             </div>
           </div>
-        </footer>
-        {/* <!--====== Footer PART ENDS ======--> */}
-      </div>
-    );
+          <div class="footer-copyright">
+            <p>
+              Copyright By@ <a href="#">Nurham Limited</a> - 2023#
+            </p>
+          </div>
+        </div>
+      </footer>
+      {/* <!--====== Footer PART ENDS ======--> */}
+    </div>
+  );
 };
 
 export default FooterPage;
