@@ -22,7 +22,7 @@ const Home = () => {
                 <section
                     className="banner-section-three"
                     // style={{ backgroundColor: "#001C22" }}
-                    style={{ backgroundImage: "url(assets/img/banner/banner-01.jpg)" }}
+                    style={{ backgroundImage: "url(assets/img/banner/land.jpg)", marginTop: "20px" }}
 
                 >
                     <div className="container position-relative">
@@ -35,7 +35,7 @@ const Home = () => {
                                     >
                                         Get Quality Item &amp; Goods
                                     </span>
-                                    <h1 className="title wow fadeInLeft" data-wow-delay="0.5s">
+                                    <h1 className="title wow fadeInLeft project-color" data-wow-delay="0.5s">
                                         IT Solutions
                                     </h1>
                                     <p className="wow fadeInUp" data-wow-delay="0.7s">
@@ -57,7 +57,7 @@ const Home = () => {
                             alt=""
                         />
                     </div> */}
-                    <div className="brand-slider row">
+                    {/* <div className="brand-slider row">
                         <div className="col">
                             <div className="brand-item">
                                 <a href="#">
@@ -86,49 +86,8 @@ const Home = () => {
                                 </a>
                             </div>
                         </div>
-                        <div className="col">
-                            <div className="brand-item">
-                                <a href="#">
-                                    <img src="assets/img/brand/brand-5.png" alt="brand name" />
-                                </a>
-                            </div>
-                        </div>
-                        <div className="col">
-                            <div className="brand-item">
-                                <a href="#">
-                                    <img src="assets/img/brand/brand-1.png" alt="brand name" />
-                                </a>
-                            </div>
-                        </div>
-                        <div className="col">
-                            <div className="brand-item">
-                                <a href="#">
-                                    <img src="assets/img/brand/brand-2.png" alt="brand name" />
-                                </a>
-                            </div>
-                        </div>
-                        <div className="col">
-                            <div className="brand-item">
-                                <a href="#">
-                                    <img src="assets/img/brand/brand-3.png" alt="brand name" />
-                                </a>
-                            </div>
-                        </div>
-                        <div className="col">
-                            <div className="brand-item">
-                                <a href="#">
-                                    <img src="assets/img/brand/brand-4.png" alt="brand name" />
-                                </a>
-                            </div>
-                        </div>
-                        <div className="col">
-                            <div className="brand-item">
-                                <a href="#">
-                                    <img src="assets/img/brand/brand-5.png" alt="brand name" />
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+
+                    </div> */}
                 </section>
                 {/*====== Banner End ======*/}
 

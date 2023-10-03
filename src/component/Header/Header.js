@@ -15,12 +15,12 @@ const Header = () => {
               <div className="site-logo">
                 <a href="index.html">
                   <img
-                    src="assets/img/nurham.png"
+                    src="assets/img/nirham.png"
                     alt="nurham"
                     className="main-logo"
                     style={{ width: "20%" }}
                   />
-
+                  <h6 className='project-color main-logo'> NURHAM LTD</h6>
 
                   <img
                     src="assets/img/nirham.png"

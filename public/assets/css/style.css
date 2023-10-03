@@ -1494,7 +1494,7 @@ div#preloader .loader-cubes .loader-cube .loader-cube3::before {
   .header-navigation .primary-menu li.current>.dd-trigger,
   .header-navigation .primary-menu li a:hover,
   .header-navigation .primary-menu li a:hover~.dd-trigger {
-    color: #fff;
+    color: #08a351;
   }
 }
 
@@ -1912,7 +1912,7 @@ div#preloader .loader-cubes .loader-cube .loader-cube3::before {
 }
 
 .header-four .header-navigation .primary-menu li a {
-  color: #fff;
+  color: #ffffff9c;
   text-transform: uppercase;
   font-size: 16px;
   padding: 0px 10px;
@@ -1948,7 +1948,7 @@ div#preloader .loader-cubes .loader-cube .loader-cube3::before {
 .header-four .header-navigation .primary-menu li.current>.dd-trigger,
 .header-four .header-navigation .primary-menu li a:hover,
 .header-four .header-navigation .primary-menu li a:hover~.dd-trigger {
-  color: #fff;
+  color: #08a351;
 }
 
 .header-four .header-navigation .nav-toggler {
@@ -11128,7 +11128,7 @@ div#preloader .loader-cubes .loader-cube .loader-cube3::before {
 }
 
 .project-color {
-  color: #08a351;
+  color: #08a351 !important;
 }
 
 .project-bg-color {
