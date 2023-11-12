@@ -2,9 +2,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div>
-
-
+    <div id="abouttop">
       {/* <!--====== Page Title start ======--> */}
       <section class="page-title-area">
         <div class="container">
@@ -23,10 +21,7 @@ const About = () => {
       <section class="experience-section section-gap">
         <div class="container">
           <div class="row">
-            <div
-              class="col-lg-5 col-md-8 wow fadeInLeft"
-              data-wow-delay="0.3s"
-            >
+            <div class="col-lg-5 col-md-8 wow fadeInLeft" data-wow-delay="0.3s">
               <div class="section-title with-right-border mb-md-gap-30">
                 <span class="title-tag">NURHAM </span>
                 <h2 class="title">Our VISION</h2>
@@ -47,9 +42,9 @@ const About = () => {
                   consistently delivering high-quality solutions that address
                   their unique challenges and drive their success.
                 </p>
-                <a href="#" class="font-weight-bold mt-10">
+                {/* <a href="#" class="font-weight-bold mt-10">
                   Read More
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
@@ -130,10 +125,10 @@ const About = () => {
                   <div class="content">
                     <h5 class="title">Reliable Equipment and Accessories</h5>
                     <p>
-                      We aim to be a trusted source for reliable heavy
-                      equipment and accessories, meeting our clients'
-                      operational needs with high-quality products and
-                      exceptional customer support.
+                      We aim to be a trusted source for reliable heavy equipment
+                      and accessories, meeting our clients' operational needs
+                      with high-quality products and exceptional customer
+                      support.
                     </p>
 
                     <i class="fal fa-analytics"></i>
@@ -147,7 +142,7 @@ const About = () => {
       {/* <!--====== Experience Area End ======--> */}
 
       {/* <!--====== Intro Video Start ======--> */}
-      <section class="about-intro-video section-gap soft-blue-bg">
+      {/* <section class="about-intro-video section-gap soft-blue-bg">
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-lg-6 col-md-10">
@@ -172,11 +167,11 @@ const About = () => {
                 <p>
                   hether you are building an enterprise web portal or a
                   state-of-the-art website, you always need the right modern
-                  tools. Well-built and maintained PHP frameworks provide
-                  those tools in abundance, allowing maintained PHP frameworks
-                  provide those tools in abundance, allowing developers to
-                  save time, re-use code, and streamline the back end. As
-                  software development tools continuously.
+                  tools. Well-built and maintained PHP frameworks provide those
+                  tools in abundance, allowing maintained PHP frameworks provide
+                  those tools in abundance, allowing developers to save time,
+                  re-use code, and streamline the back end. As software
+                  development tools continuously.
                 </p>
                 <a class="main-btn mt-30" href="about.html">
                   Learn More
@@ -185,10 +180,11 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* <!--====== Intro Video End ======--> */}
 
       {/* <!--====== History Area Start ======--> */}
+
       <section class="history-section section-gap">
         <div class="container">
           <div class="row justify-content-center">
@@ -219,12 +215,12 @@ const About = () => {
             <div class="history-item wow fadeInUp" data-wow-delay="0.3s">
               <div
                 class="history-thumb"
-                style={{ backgroundImage: "url(assets/img/pro2.png" }}
+                style={{ backgroundImage: "url(assets/img/pro2.png)" }}
               ></div>
               <div class="history-content">
                 <span class="history-year">2023 - Boundary</span>
                 <h4 class="title">
-                  Boundary Fencing at Bangabandhu Tunnel Project:
+                  Boundary Fencing at Bangabandhu Tunnel Project
                 </h4>
               </div>
               <div class="number-box">
@@ -234,7 +230,7 @@ const About = () => {
             <div class="history-item wow fadeInUp" data-wow-delay="0.3s">
               <div
                 class="history-thumb"
-                style={{ backgroundImage: "url(assets/img/pro3.png)" }}
+                style={{ backgroundImage: "url(assets/img/pro3.png" }}
               ></div>
               <div class="history-content">
                 <span class="history-year">2023 - Marking</span>
@@ -244,13 +240,13 @@ const About = () => {
                 <span>03</span>
               </div>
             </div>
-            <div class="history-item wow fadeInUp" data-wow-delay="0.3s">
+            {/* <div class="history-item wow fadeInUp" data-wow-delay="0.3s">
               <div
                 class="history-thumb"
                 style={{ backgroundImage: "url(assets/img/history-4.jpg)" }}
               ></div>
               <div class="history-content">
-                <span class="history-year">1990 - Consultancy</span>
+                <span class="history-year">2023 - Consultancy</span>
                 <h4 class="title">
                   Engineering Consultancy Bangabandhu Sheikh Mujibur Rahman
                   Tunnel
@@ -259,7 +255,23 @@ const About = () => {
               <div class="number-box">
                 <span>04</span>
               </div>
-            </div>
+            </div> */}
+            {/* <div class="history-item wow fadeInUp" data-wow-delay="0.3s">
+              <div
+                class="history-thumb"
+                style={{ backgroundImage: "url(assets/img/history-4.jpg)" }}
+              ></div>
+              <div class="history-content">
+                <span class="history-year">2023 - Consultancy</span>
+                <h4 class="title">
+                  Engineering Consultancy Bangabandhu Sheikh Mujibur Rahman
+                  Tunnel
+                </h4>
+              </div>
+              <div class="number-box">
+                <span>04</span>
+              </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -277,8 +289,6 @@ const About = () => {
         </a>
       </div>
       {/* <!--====== Back to top start ======--> */}
-
-
     </div>
   );
 };

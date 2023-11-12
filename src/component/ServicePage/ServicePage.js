@@ -1,9 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const ServicePage = () => {
   return (
-    <div>
+    <div id="servicetop">
       <>
         {/*====== Preloader Start ======*/}
         {/* <div id="preloader">
@@ -34,17 +33,21 @@ const ServicePage = () => {
           <div className="container">
             <div className="row service-items justify-content-center">
               <div className="col-lg-4 col-md-6 col-sm-8">
-                <Link to="/servicedetails">
+                {/* <Link to="/servicedetails"> */}
                   <div className="service-item-eight mb-30">
                     <div className="service-img">
-                      <img src="assets/img/service-img/07.jpg" alt="Image" />
+                      <img
+                        className="service-img-size"
+                        src="assets/img/service-img/landscaping1.jpg"
+                        alt="Image"
+                      />
                     </div>
                     <div className="services-overlay">
                       <div className="icon">
                         <i className="fal fa-eye-dropper" />
                       </div>
                       <h4 className="title">
-                        <a href="#">Landscaping</a>
+                        <a >Landscaping</a>
                       </h4>
                       <p>
                         The functional goal of technical content is to help
@@ -53,21 +56,25 @@ const ServicePage = () => {
                       </p>
                     </div>
                   </div>
-                </Link>
+                {/* </Link> */}
               </div>
 
               <div className="col-lg-4 col-md-6 col-sm-8">
-                <Link to="/servicedetails">
+                {/* <Link to="/servicedetails"> */}
                   <div className="service-item-eight mb-30">
                     <div className="service-img">
-                      <img src="assets/img/service-img/08.jpg" alt="Image" />
+                      <img
+                        className="service-img-size"
+                        src="assets/img/service-img/projectmanagement.jpg"
+                        alt="Image"
+                      />
                     </div>
                     <div className="services-overlay">
                       <div className="icon">
                         <i className="fal fa-eye-dropper" />
                       </div>
                       <h4 className="title">
-                        <a href="#">Project Management</a>
+                        <a >Project Management</a>
                       </h4>
                       <p>
                         The functional goal of technical content is to help
@@ -76,21 +83,25 @@ const ServicePage = () => {
                       </p>
                     </div>
                   </div>
-                </Link>
+                {/* </Link> */}
               </div>
 
               <div className="col-lg-4 col-md-6 col-sm-8">
-                <Link to="/servicedetails">
+                {/* <Link to="/servicedetails"> */}
                   <div className="service-item-eight mb-30">
                     <div className="service-img">
-                      <img src="assets/img/service-img/09.jpg" alt="Image" />
+                      <img
+                        className="service-img-size"
+                        src="assets/img/service-img/engineering-consulting.jpg"
+                        alt="Image"
+                      />
                     </div>
                     <div className="services-overlay">
                       <div className="icon">
                         <i className="fal fa-eye-dropper" />
                       </div>
                       <h4 className="title">
-                        <a href="#">Engineering Consultancy</a>
+                        <a >Engineering Consultancy</a>
                       </h4>
                       <p>
                         The functional goal of technical content is to help
@@ -99,21 +110,25 @@ const ServicePage = () => {
                       </p>
                     </div>
                   </div>
-                </Link>
+                {/* </Link> */}
               </div>
 
               <div className="col-lg-4 col-md-6 col-sm-8">
-                <Link to="/servicedetails">
+                {/* <Link to="/servicedetails"> */}
                   <div className="service-item-eight mb-30">
                     <div className="service-img">
-                      <img src="assets/img/service-img/10.jpg" alt="Image" />
+                      <img
+                        className="service-img-size"
+                        src="assets/img/service-img/cctv-security.jpg"
+                        alt="Image"
+                      />
                     </div>
                     <div className="services-overlay">
                       <div className="icon">
                         <i className="fal fa-eye-dropper" />
                       </div>
                       <h4 className="title">
-                        <a href="#">CCTV Setup & Services</a>
+                        <a >CCTV Setup & Services</a>
                       </h4>
                       <p>
                         The functional goal of technical content is to help
@@ -122,21 +137,25 @@ const ServicePage = () => {
                       </p>
                     </div>
                   </div>
-                </Link>
+                {/* </Link> */}
               </div>
 
               <div className="col-lg-4 col-md-6 col-sm-8">
-                <Link to="/servicedetails">
+                {/* <Link to="/servicedetails"> */}
                   <div className="service-item-eight mb-30">
                     <div className="service-img">
-                      <img src="assets/img/service-img/11.jpg" alt="Image" />
+                      <img
+                        className="service-img-size"
+                        src="assets/img/service-img/road-marking.jpg"
+                        alt="Image"
+                      />
                     </div>
                     <div className="services-overlay">
                       <div className="icon">
                         <i className="fal fa-eye-dropper" />
                       </div>
                       <h4 className="title">
-                        <a href="#">Road Marking</a>
+                        <a >Road Marking</a>
                       </h4>
                       <p>
                         The functional goal of technical content is to help
@@ -145,21 +164,25 @@ const ServicePage = () => {
                       </p>
                     </div>
                   </div>
-                </Link>
+                {/* </Link> */}
               </div>
 
               <div className="col-lg-4 col-md-6 col-sm-8">
-                <Link to="/servicedetails">
+                {/* <Link to="/servicedetails"> */}
                   <div className="service-item-eight mb-30">
                     <div className="service-img">
-                      <img src="assets/img/service-img/12.jpg" alt="Image" />
+                      <img
+                        className="service-img-size"
+                        src="assets/img/service-img/equipment.jpg"
+                        alt="Image"
+                      />
                     </div>
                     <div className="services-overlay">
                       <div className="icon">
                         <i className="fal fa-eye-dropper" />
                       </div>
                       <h4 className="title">
-                        <a href="#">Heavy Equipment & Machineries Supply</a>
+                        <a >Heavy Equipment & Machineries Supply</a>
                       </h4>
                       <p>
                         The functional goal of technical content is to help
@@ -168,7 +191,7 @@ const ServicePage = () => {
                       </p>
                     </div>
                   </div>
-                </Link>
+                {/* </Link> */}
               </div>
             </div>
           </div>

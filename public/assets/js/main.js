@@ -396,7 +396,7 @@
 			$('.back-to-top').fadeOut(200)
 		}
 	}
-	function backToTop() {
+ function backToTop() {
 		$('.back-to-top').on('click', function (e) {
 			e.preventDefault();
 

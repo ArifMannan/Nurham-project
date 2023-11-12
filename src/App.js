@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, useLocation } from 'react-router-dom';
 import './App.css';
 import About from './component/AboutPage/About';
 import BlogDetails from './component/BlogPage/BlogDetails/BlogDetails';
@@ -18,10 +18,16 @@ import mainMenu from './mainMenu';
 
 
 function App() {
+   const { pathname } = useLocation();
+
+   useEffect(() => {
+     window.scrollTo(0, 0);
+   }, [pathname]);
+  
   useEffect(() => {
     mainMenu();
-
   }, []);
+  console.log = console.warn = console.error = console.dirxml = console.trace = console.info = console.dir = () => { };
   return (
     <>
       <Header />

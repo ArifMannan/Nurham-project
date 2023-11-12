@@ -1,8 +1,9 @@
 import React from 'react';
+
 import { Link } from 'react-router-dom';
 import mainMenu from '../../mainMenu';
-
 const Header = () => {
+
   return (
     <>
       <header
@@ -13,14 +14,14 @@ const Header = () => {
           <div className="container-fluid d-flex align-items-center justify-content-between">
             <div className="header-left">
               <div className="site-logo">
-                <a href="index.html">
+                <Link to={"/home"}>
                   <img
                     src="assets/img/nirham.png"
                     alt="nurham"
                     className="main-logo"
                     style={{ width: "20%" }}
                   />
-                  <h6 className='project-color main-logo'> NURHAM LTD</h6>
+                  <h6 className="project-color main-logo"> NURHAM LTD</h6>
 
                   <img
                     src="assets/img/nirham.png"
@@ -28,8 +29,8 @@ const Header = () => {
                     className="sticky-logo  "
                     style={{ width: "20%" }}
                   />
-                  <h6 className='project-color sticky-logo'> NURHAM LTD</h6>
-                </a>
+                  <h6 className="project-color sticky-logo"> NURHAM LTD</h6>
+                </Link>
               </div>
             </div>
             <div className="site-nav-menu">
