@@ -2916,6 +2916,7 @@ div#preloader .loader-cubes .loader-cube .loader-cube3::before {
   padding-bottom: 275px;
   background-size: cover;
   background-position: center;
+  transition: background-image 5s ease-in-out;
 }
 
 .banner-section-three::before {

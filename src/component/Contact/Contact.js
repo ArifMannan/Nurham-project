@@ -44,7 +44,6 @@ const Contact = () => {
                   <h5 class="title">Email Address</h5>
                   <p>
                     <a
-                      href="/cdn-cgi/l/email-protection"
                       class="__cf_email__"
                       data-cfemail="0b62656d644b7c6e69666a626725686466"
                     >
@@ -70,7 +69,7 @@ const Contact = () => {
             <div class="col-lg-6">
               <div class="contact-map-three">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3293508.5839867895!2d87.11697726357188!3d23.878669399080625!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd989e34dc8eb%3A0xc869f730c7cff8ca!2sNurham%20Limited!5e0!3m2!1sen!2sbd!4v1698033671834!5m2!1sen!2sbd"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d236127.78544788138!2d91.66735396610557!3d22.37262717276053!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd989e34dc8eb%3A0xc869f730c7cff8ca!2sNurham%20Limited!5e0!3m2!1sen!2sbd!4v1699849153970!5m2!1sen!2sbd"
                   width="600"
                   height="450"
                   style={{ border: "0" }}
