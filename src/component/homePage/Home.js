@@ -1,26 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 
 const Home = () => {
-
- const [backgroundIndex, setBackgroundIndex] = useState(0);
- const images = [
-   "landscaping.jpg",
-   "cctv2.jpg",
-   "projectmanagement2.jpg",
-   "roadmarking.jpg",
-   "equipment.jpg",
- ]; // Add your image file names
- const imageUrl = `url('assets/img/banner/${images[backgroundIndex]}')`;
-
- useEffect(() => {
-   const interval = setInterval(() => {
-     setBackgroundIndex((prevIndex) => (prevIndex + 1) % images.length);
-   }, 5000); // Change background every 3 seconds (adjust as needed)
-
-   return () => clearInterval(interval);
- }, [backgroundIndex, images.length]);
 
 
 
@@ -42,13 +24,11 @@ const Home = () => {
           {/*====== Header Part End ======*/}
           {/*====== Banner Start ======*/}
           <section
-            className="banner-section-three "
-            // style={{ backgroundColor: "#001C22" }}
+            className="banner-section-three"
             style={{
-              backgroundImage: imageUrl,
-              marginTop: "20px"
+              // backgroundImage: imageUrl,
+              marginTop: "20px",
             }}
-           
           >
             <div className="container position-relative">
               <div className="row justify-content-center">

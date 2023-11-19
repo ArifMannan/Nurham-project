@@ -2916,7 +2916,25 @@ div#preloader .loader-cubes .loader-cube .loader-cube3::before {
   padding-bottom: 275px;
   background-size: cover;
   background-position: center;
-  transition: background-image 5s ease-in-out;
+  animation: changeBackground 40s infinite;
+}
+
+@keyframes changeBackground {
+  0% {
+    background-image: url("../img/banner/landscaping.jpg");
+  }
+  25% {
+    background-image: url("../img/banner/cctv2.jpg");
+  }
+  50% {
+    background-image: url("../img/banner/projectmanagement2.jpg");
+  }
+  75% {
+    background-image: url("../img/banner/roadmarking.jpg"); /* Repeat to create a loop */
+  }
+  100% {
+    background-image: url("../img/banner/equipment.jpg"); /* Repeat to create a loop */
+  }
 }
 
 .banner-section-three::before {
