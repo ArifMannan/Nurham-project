@@ -15,15 +15,23 @@ import TeamDetails from './component/TeamPage/TeamDetails/TeamDetails';
 import TeamPage from './component/TeamPage/TeamPage';
 import Home from './component/homePage/Home';
 import mainMenu from './mainMenu';
+import Escalator from './component/Products/Escalator';
+import Generators from './component/Products/Generators';
+import Cabling from './component/ServicePage/Cabling';
+import Landscaping from './component/ServicePage/Landscaping';
+import DbIt from './component/ServicePage/DbIt';
+import StreeLamp from './component/ServicePage/StreeLamp';
+import Roadmarking from './component/ServicePage/Roadmarking';
+import SolarSystem from './component/ServicePage/SolarSystem';
 
 
 function App() {
-   const { pathname } = useLocation();
+  const { pathname } = useLocation();
 
-   useEffect(() => {
-     window.scrollTo(0, 0);
-   }, [pathname]);
-  
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   useEffect(() => {
     mainMenu();
   }, []);
@@ -41,10 +49,17 @@ function App() {
         <Route path="/blogdetails" element={<BlogDetails />} />
         <Route path="/privacy" element={<PrivacyPolicyPage />} />
         <Route path="/team" element={<TeamPage />} />
-        <Route path="/teamdetails" element={<TeamDetails />} />
         <Route path="/faq" element={<FaqPage />} />
         <Route path="/service" element={<ServicePage />} />
         <Route path="/servicedetails" element={<ServiceDetails />} />
+        <Route path="/elevator_escalator" element={<Escalator />} />
+        <Route path="/generators" element={<Generators />} />
+        <Route path="/cabling" element={<Cabling />} />
+        <Route path="/landscaping" element={<Landscaping />} />
+        <Route path="/db_lt" element={<DbIt />} />
+        <Route path="/lamp" element={<StreeLamp />} />
+        <Route path="/road" element={<Roadmarking />} />
+        <Route path="/solar" element={<SolarSystem />} />
       </Routes>
 
       <FooterPage />

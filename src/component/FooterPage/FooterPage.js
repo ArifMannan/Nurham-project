@@ -31,7 +31,7 @@ const FooterPage = () => {
                     {" "}
                     <h5 class="contact-info-title text-light">Email Address</h5>
                     <p className="contact-info-p ">
-                      <a class="__cf_email__">info@nurham.com</a>
+                      <a className='contact-info-p' href="mailto:info@nurham.com">info@nurham.com</a>
                     </p>
                   </div>
                 </div>
@@ -42,8 +42,8 @@ const FooterPage = () => {
                   <div>
                     <h5 class="contact-info-title text-light">Our Location</h5>
                     <p className="contact-info-p ">
-                      Zobeda Manzil (4th Floor), House-02, Road No-04, Block-G,
-                      Halishahar H/E, Chattogram
+                      Mirsharai Bhaban, Plot-1/A., Block -H,
+                      Port Connecting Road, Halishahar, Chattogram
                     </p>
                   </div>
                 </div>

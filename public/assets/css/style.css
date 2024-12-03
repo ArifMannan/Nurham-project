@@ -134,13 +134,13 @@ p {
   margin: 0px;
 }
 
-p.text-color-2 {
+/* p.text-color-2 {
   color: #81a3bb;
 }
 
 p.text-color-3 {
   color: #69a1bb;
-}
+} */
 
 p.fs-16 {
   font-size: 16px;
@@ -150,7 +150,7 @@ a {
   -webkit-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
-  color: #08a351;
+  /* color: white; */
   text-decoration: none;
 }
 
@@ -1422,8 +1422,8 @@ div#preloader .loader-cubes .loader-cube .loader-cube3::before {
   position: absolute;
   left: 0;
   top: 110%;
-  width: 200px;
-  background-color: #fff;
+  width: 300px;
+  background-color: #001c22;
   -webkit-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
@@ -3375,7 +3375,7 @@ div#preloader .loader-cubes .loader-cube .loader-cube3::before {
 }
 
 .service-item-four .services-content .title {
-  font-size: 26px;
+  font-size: 24px;
   color: #232323;
   border-bottom: 2px #e3eeff solid;
   padding-bottom: 25px;
@@ -3733,7 +3733,7 @@ div#preloader .loader-cubes .loader-cube .loader-cube3::before {
   left: 70px;
   right: 70px;
   top: 0;
-  background-color: #08a351;
+  background-color: #03602ff7;
   height: 535px;
   z-index: -1;
 }
@@ -6808,16 +6808,15 @@ div#preloader .loader-cubes .loader-cube .loader-cube3::before {
 .about-thumb::before {
   position: absolute;
   content: "";
-  height: 630px;
-  width: 630px;
-  border: 120px solid #08a351;
+  height: 475px;
+  width: 475px;
+  border: 55px solid #08a351;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
   background: #fff;
   z-index: -1;
-  left: -165px;
-  top: -70px;
+  left: -30px;
   background-color: #001c22;
 }
 
@@ -6827,8 +6826,8 @@ div#preloader .loader-cubes .loader-cube .loader-cube3::before {
 }
 
 .about-img-size {
-  margin-top: 75px;
-  width: 60%;
+  margin-top: 50px;
+  width: 75%;
 }
 
 .why-img-size {
@@ -11173,4 +11172,43 @@ div#preloader .loader-cubes .loader-cube .loader-cube3::before {
   border-radius: 10px;
   background: #002249;
   content: "";
+}
+
+/* custom design  */
+.service-item-four {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.service-link {
+  display: inline-block;
+  padding: 10px 20px;
+  /* background: #08a351; */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: auto;
+  /* ensures it's aligned at the bottom */
+}
+
+.service-link i {
+  margin-left: 5px;
+}
+
+.bgColor {
+  background: #08a351;
+}
+
+.textColor {
+  color: #08a351;
+}
+
+.light-dark {
+  color: #ffffffc9 !important;
+}
+
+.slick-center a {
+  opacity: 0.6 !important;
+  color: white;
 }

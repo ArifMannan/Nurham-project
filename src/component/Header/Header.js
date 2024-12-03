@@ -14,22 +14,24 @@ const Header = () => {
           <div className="container-fluid d-flex align-items-center justify-content-between">
             <div className="header-left">
               <div className="site-logo">
-                <Link to={"/home"}>
+                <Link to={"/home"} style={{ filter: "brightness(1.5)" }}>
                   <img
-                    src="assets/img/nirham.png"
+                    src="assets/img/nurham-logo-sm.png"
                     alt="nurham"
                     className="main-logo"
-                    style={{ width: "20%" }}
+                    height={100}
+
                   />
-                  <h6 className="project-color main-logo"> NURHAM LTD</h6>
+                  <h6 className="project-color main-logo " style={{ paddingLeft: "5px" }}> NURHAM LTD</h6>
 
                   <img
-                    src="assets/img/nirham.png"
+                    src="assets/img/nurham-logo-sm.png"
                     alt="nurham"
-                    className="sticky-logo  "
-                    style={{ width: "20%" }}
+                    className="sticky-logo"
+                    height={100}
+
                   />
-                  <h6 className="project-color sticky-logo"> NURHAM LTD</h6>
+                  <h6 className="project-color sticky-logo" style={{ paddingLeft: "5px" }}> NURHAM LTD</h6>
                 </Link>
               </div>
             </div>
@@ -48,8 +50,49 @@ const Header = () => {
                 <li>
                   <Link to="/service">
                     {" "}
+                    <a> Products </a>
+                  </Link>
+                  <ul class="submenu">
+                    <li> <Link className='light-dark' to="/elevator_escalator">Elevator and
+                      Escalator
+                    </Link>
+                    </li>
+                    <li> <Link className='light-dark' to="/Generators">
+                      Generator
+                    </Link></li>
+                  </ul>
+                </li>
+
+                <li>
+                  <Link to="/service">
+                    {" "}
                     <a>Services</a>
                   </Link>
+                  <ul class="submenu">
+                    <li> <Link className='light-dark' to="/landscaping">
+                      Landscaping
+                    </Link></li>
+                    <li> <Link className='light-dark' to="/cabling">
+                      Underground Cabling
+                    </Link></li>
+                    <li> <Link className='light-dark' to="/db_lt">
+                      DB & LT Supply and Installation
+                    </Link></li>
+                    <li> <Link className='light-dark' to="/solar">
+                      Solar system
+
+                    </Link></li>
+                    <li> <Link className='light-dark' to="/lamp">
+                      Street Lamps & Pole Fitting
+                    </Link></li>
+                    <li> <Link className='light-dark' to="/road">
+                      Road Marking
+                    </Link></li>
+
+                    <li><a className='light-dark'>Engineering Consultancy</a></li>
+                    <li><a className='light-dark'>CCTV Setup & Services</a></li>
+                    <li><a className='light-dark' >Equipment & Machineries</a></li>
+                  </ul>
                 </li>
                 <li>
                   <Link to="/contact">
