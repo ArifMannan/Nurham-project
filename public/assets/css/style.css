@@ -7378,7 +7378,7 @@ div#preloader .loader-cubes .loader-cube .loader-cube3::before {
 }
 
 .contact-info-p {
-  font-size: 18px;
+  font-size: 16px;
   color: #69a1bb;
   padding-top: 5px;
 }
@@ -7396,7 +7396,7 @@ div#preloader .loader-cubes .loader-cube .loader-cube3::before {
 }
 
 .contact-info-items .contact-info-item p {
-  font-size: 18px;
+  font-size: 16px;
   color: #69a1bb;
   padding-top: 5px;
 }
@@ -8365,11 +8365,12 @@ div#preloader .loader-cubes .loader-cube .loader-cube3::before {
 }
 
 .brand-slider .brand-item a {
-  opacity: 0.2;
+  opacity: 0.5;
 }
 
 .brand-slider .brand-item a:hover {
   opacity: 1;
+  color: #08a351;
 }
 
 .brand-slider .brand-item.full-opacity a {
@@ -11209,6 +11210,71 @@ div#preloader .loader-cubes .loader-cube .loader-cube3::before {
 }
 
 .slick-center a {
-  opacity: 0.6 !important;
-  color: white;
+  opacity: 1 !important;
+}
+
+.slick-slide {
+  padding: 10px;
+  /* Adds spacing around each slide */
+}
+
+.center .slick-slide {
+  margin-bottom: 20px;
+  /* Adds space between rows */
+}
+
+.contact-icon {
+  background-color: transparent !important;
+  line-height: none !important;
+  width: 25px !important;
+  color: black !important;
+  height: 50px !important;
+}
+
+.float {
+  position: fixed !important;
+  width: 60px;
+  height: 60px;
+  bottom: 100px;
+  right: 30px;
+  background-color: #25D366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.float:hover {
+  transform: scale(1.1);
+  /* Slight zoom on hover for interactivity */
+}
+
+.my-float {
+  margin-top: 15px !important;
+  margin-left: 5px !important;
+}
+
+.services-overlay-coustom {
+  position: absolute;
+  bottom: -110px;
+  left: 0;
+  width: 100%;
+  height: 180px;
+  background-color: rgba(0, 34, 73, 0.5);
+  padding: 20px 40px 40px;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+.services-overlay-coustom p {
+  color: #fff;
+  font-size: 14px;
+  padding-top: 20px;
+}
+
+.services-overlay-coustom .title {
+  font-size: 20px;
 }

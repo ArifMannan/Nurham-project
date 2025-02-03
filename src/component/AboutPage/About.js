@@ -61,7 +61,11 @@ const About = () => {
               data-wow-delay="0.3s"
             >
               <div class="feature-box mt-30">
-                <img src="assets/img/feature-1.jpg" alt="" />
+                <img style={{
+                  height: "300px",
+                  width: "280px",
+                  objectFit: "cover"
+                }} src="assets/img/our-mission/mission-1.jpg" alt="" />
                 <div class="feature-overlay">
                   <div class="content">
                     <h5 class="title">Client Satisfaction</h5>
@@ -81,7 +85,11 @@ const About = () => {
               data-wow-delay="0.4s"
             >
               <div class="feature-box mt-30">
-                <img src="assets/img/feature-2.jpg" alt="" />
+                <img style={{
+                  height: "300px",
+                  width: "280px",
+                  objectFit: "cover"
+                }} src="assets/img/our-mission/mission-4.jpg" alt="" />
                 <div class="feature-overlay">
                   <div class="content">
                     <h5 class="title">Excellence in Project Management</h5>
@@ -100,7 +108,11 @@ const About = () => {
               data-wow-delay="0.5s"
             >
               <div class="feature-box mt-30">
-                <img src="assets/img/feature-3.jpg" alt="" />
+                <img style={{
+                  height: "300px",
+                  width: "280px",
+                  objectFit: "cover"
+                }} src="assets/img/our-mission/mission-2.jpg" alt="" />
                 <div class="feature-overlay">
                   <div class="content">
                     <h5 class="title">Innovative Engineering Consultancy</h5>
@@ -120,7 +132,11 @@ const About = () => {
               data-wow-delay="0.5s"
             >
               <div class="feature-box mt-30">
-                <img src="assets/img/feature-3.jpg" alt="" />
+                <img style={{
+                  height: "300px",
+                  width: "280px",
+                  objectFit: "cover"
+                }} src="assets/img/our-mission/mission-3.jpg" alt="" />
                 <div class="feature-overlay">
                   <div class="content">
                     <h5 class="title">Reliable Equipment and Accessories</h5>
@@ -202,11 +218,11 @@ const About = () => {
             <div class="history-item wow fadeInUp" data-wow-delay="0.3s">
               <div
                 class="history-thumb"
-                style={{ backgroundImage: "url(assets/img/pro1.png)" }}
+                style={{ backgroundImage: "url(assets/img/pro1.png)", objectFit: "cover" }}
               ></div>
               <div class="history-content">
-                <span class="history-year">2023 - Landscaping</span>
-                <h4 class="title">Landscaping of Bangabandhu Tunnel</h4>
+                <span class="history-year">Landscaping</span>
+                <h4 class="title">Landscaping of Karnaphuli Tunnel</h4>
               </div>
               <div class="number-box">
                 <span>01</span>
@@ -218,26 +234,58 @@ const About = () => {
                 style={{ backgroundImage: "url(assets/img/pro2.png)" }}
               ></div>
               <div class="history-content">
-                <span class="history-year">2023 - Boundary</span>
+                <span class="history-year">Boundary Fencing</span>
                 <h4 class="title">
-                  Boundary Fencing at Bangabandhu Tunnel Project
+                  Boundary Fencing at Karnaphuli Tunnel
                 </h4>
               </div>
               <div class="number-box">
                 <span>02</span>
               </div>
             </div>
+
             <div class="history-item wow fadeInUp" data-wow-delay="0.3s">
               <div
                 class="history-thumb"
                 style={{ backgroundImage: "url(assets/img/pro3.png" }}
               ></div>
               <div class="history-content">
-                <span class="history-year">2023 - Marking</span>
-                <h4 class="title">Road Marking: Bangabandhu Tunnel</h4>
+                <span class="history-year">Road Marking</span>
+                <h4 class="title">Road Marking of Karnaphuli Tunnel</h4>
               </div>
               <div class="number-box">
                 <span>03</span>
+              </div>
+            </div>
+
+            <div class="history-item wow fadeInUp" data-wow-delay="0.3s">
+              <div
+                class="history-thumb"
+                style={{ backgroundImage: "url(/assets/img/service-img/sasec-work.jpg)" }}
+              ></div>
+              <div class="history-content">
+                <span class="history-year">Road Marking</span>
+                <h4 class="title">
+                  Road Marking of SASEC
+                </h4>
+              </div>
+              <div class="number-box">
+                <span>04</span>
+              </div>
+            </div>
+            <div class="history-item wow fadeInUp" data-wow-delay="0.3s">
+              <div
+                class="history-thumb"
+                style={{ backgroundImage: "url(/assets/img/landscaping/ss-11.jpg)" }}
+              ></div>
+              <div class="history-content">
+                <span class="history-year">Landscaping</span>
+                <h4 class="title">
+                  Landscaping of SS Power Plant
+                </h4>
+              </div>
+              <div class="number-box">
+                <span>05</span>
               </div>
             </div>
             {/* <div class="history-item wow fadeInUp" data-wow-delay="0.3s">
@@ -248,23 +296,7 @@ const About = () => {
               <div class="history-content">
                 <span class="history-year">2023 - Consultancy</span>
                 <h4 class="title">
-                  Engineering Consultancy Bangabandhu Sheikh Mujibur Rahman
-                  Tunnel
-                </h4>
-              </div>
-              <div class="number-box">
-                <span>04</span>
-              </div>
-            </div> */}
-            {/* <div class="history-item wow fadeInUp" data-wow-delay="0.3s">
-              <div
-                class="history-thumb"
-                style={{ backgroundImage: "url(assets/img/history-4.jpg)" }}
-              ></div>
-              <div class="history-content">
-                <span class="history-year">2023 - Consultancy</span>
-                <h4 class="title">
-                  Engineering Consultancy Bangabandhu Sheikh Mujibur Rahman
+                  Engineering Consultancy Karnaphuli 
                   Tunnel
                 </h4>
               </div>

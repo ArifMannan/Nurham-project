@@ -203,7 +203,7 @@ const Landscaping = () => {
                                 }}
                             >
                                 <img
-                                    className="w-100"
+                                    className="h-100"
                                     src="assets/img/service-img/gardening3.jpg"
                                     alt="Image"
                                     style={{
@@ -219,8 +219,8 @@ const Landscaping = () => {
                 </div>
             </section>
             <section className="container mb-5">
-                <h3 className="text-left bgColor  text-white">
-                    <span className="bgColor px-5 py-4">
+                <h3 className="text-left bgColor  text-white text-center">
+                    <span className="bgColor py-4">
                         {" "}
                         COMPLETED GARDENING &amp; LANDSCAPING PROJECTS
                     </span>
@@ -228,9 +228,9 @@ const Landscaping = () => {
                 <hr />
                 <div>
                     <div className="row justify-content-center align-content-center ">
-                        <div className="col-lg-4 col-md-6 mb-2  ">
+                        <div className="col-lg-4 col-md-6 mb-4  ">
                             <div
-                                className="img-one wow fadeInRight"
+                                className="img-one wow fadeInRight service-item-eight"
                                 data-wow-delay="0.3s"
                                 style={{
                                     visibility: "visible",
@@ -239,21 +239,25 @@ const Landscaping = () => {
                                 }}
                             >
                                 <img
-                                    src="assets/img/service-img/gardeningServicePic1.png"
+                                    src="assets/img/landscaping/kt-1.jpg"
                                     alt="Image"
                                     style={{
-                                        height: "100%",
-                                        width: "80%",
-                                        border: "10px solid rgb(8, 163, 81)",
-                                        borderRadius: 10,
-                                        marginTop: 20
+                                        height: "300px",
+                                        width: "370px",
+                                        objectFit: "cover"
                                     }}
                                 />
+                                <div className="services-overlay-coustom">
+
+                                    <h4 className="title">
+                                        <div className='text-light text-center' >Karnaphuli Tunnel</div>
+                                    </h4>
+                                </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6">
+                        <div className="col-lg-4 col-md-6 mb-4  ">
                             <div
-                                className="img-one wow fadeInRight"
+                                className="img-one wow fadeInRight service-item-eight"
                                 data-wow-delay="0.3s"
                                 style={{
                                     visibility: "visible",
@@ -262,21 +266,25 @@ const Landscaping = () => {
                                 }}
                             >
                                 <img
-                                    src="assets/img/service-img/gardeningServicePic1.png"
+                                    src="assets/img/landscaping/kt-2.jpg"
                                     alt="Image"
                                     style={{
-                                        height: "100%",
-                                        width: "80%",
-                                        border: "10px solid rgb(8, 163, 81)",
-                                        borderRadius: 10,
-                                        marginTop: 20
+                                        height: "300px",
+                                        width: "370px",
+                                        objectFit: "cover"
                                     }}
                                 />
+                                <div className="services-overlay-coustom">
+
+                                    <h4 className="title">
+                                        <div className='text-light text-center' >Karnaphuli Tunnel</div>
+                                    </h4>
+                                </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6">
+                        <div className="col-lg-4 col-md-6 mb-4  ">
                             <div
-                                className="img-one wow fadeInRight"
+                                className="img-one wow fadeInRight service-item-eight"
                                 data-wow-delay="0.3s"
                                 style={{
                                     visibility: "visible",
@@ -285,21 +293,25 @@ const Landscaping = () => {
                                 }}
                             >
                                 <img
-                                    src="assets/img/service-img/gardeningServicePic1.png"
+                                    src="assets/img/landscaping/kt-3.jpg"
                                     alt="Image"
                                     style={{
-                                        height: "100%",
-                                        width: "80%",
-                                        border: "10px solid rgb(8, 163, 81)",
-                                        borderRadius: 10,
-                                        marginTop: 20
+                                        height: "300px",
+                                        width: "370px",
+                                        objectFit: "cover"
                                     }}
                                 />
+                                <div className="services-overlay-coustom">
+
+                                    <h4 className="title">
+                                        <div className='text-light text-center' >Karnaphuli Tunnel</div>
+                                    </h4>
+                                </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6">
+                        <div className="col-lg-4 col-md-6 mb-4  ">
                             <div
-                                className="img-one wow fadeInRight"
+                                className="img-one wow fadeInRight service-item-eight"
                                 data-wow-delay="0.3s"
                                 style={{
                                     visibility: "visible",
@@ -308,21 +320,25 @@ const Landscaping = () => {
                                 }}
                             >
                                 <img
-                                    src="assets/img/service-img/gardeningServicePic1.png"
+                                    src="assets/img/landscaping/ss-1.jpg"
                                     alt="Image"
                                     style={{
-                                        height: "100%",
-                                        width: "80%",
-                                        border: "10px solid rgb(8, 163, 81)",
-                                        borderRadius: 10,
-                                        marginTop: 20
+                                        height: "300px",
+                                        width: "370px",
+                                        objectFit: "cover"
                                     }}
                                 />
+                                <div className="services-overlay-coustom">
+
+                                    <h4 className="title">
+                                        <div className='text-light text-center' >SS Power Plant</div>
+                                    </h4>
+                                </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6">
+                        <div className="col-lg-4 col-md-6 mb-4  ">
                             <div
-                                className="img-one wow fadeInRight"
+                                className="img-one wow fadeInRight service-item-eight"
                                 data-wow-delay="0.3s"
                                 style={{
                                     visibility: "visible",
@@ -331,21 +347,25 @@ const Landscaping = () => {
                                 }}
                             >
                                 <img
-                                    src="assets/img/service-img/gardeningServicePic1.png"
+                                    src="assets/img/landscaping/ss-2.jpg"
                                     alt="Image"
                                     style={{
-                                        height: "100%",
-                                        width: "80%",
-                                        border: "10px solid rgb(8, 163, 81)",
-                                        borderRadius: 10,
-                                        marginTop: 20
+                                        height: "300px",
+                                        width: "370px",
+                                        objectFit: "cover"
                                     }}
                                 />
+                                <div className="services-overlay-coustom">
+
+                                    <h4 className="title">
+                                        <div className='text-light text-center' >SS Power Plant</div>
+                                    </h4>
+                                </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6">
+                        <div className="col-lg-4 col-md-6 mb-4  ">
                             <div
-                                className="img-one wow fadeInRight"
+                                className="img-one wow fadeInRight service-item-eight"
                                 data-wow-delay="0.3s"
                                 style={{
                                     visibility: "visible",
@@ -354,18 +374,23 @@ const Landscaping = () => {
                                 }}
                             >
                                 <img
-                                    src="assets/img/service-img/gardeningServicePic1.png"
+                                    src="assets/img/landscaping/ss-3.jpg"
                                     alt="Image"
                                     style={{
-                                        height: "100%",
-                                        width: "80%",
-                                        border: "10px solid rgb(8, 163, 81)",
-                                        borderRadius: 10,
-                                        marginTop: 20
+                                        height: "300px",
+                                        width: "370px",
+                                        objectFit: "cover"
                                     }}
                                 />
+                                <div className="services-overlay-coustom">
+
+                                    <h4 className="title">
+                                        <div className='text-light text-center' >SS Power Plant</div>
+                                    </h4>
+                                </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </section>

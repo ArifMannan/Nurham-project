@@ -14,6 +14,7 @@ const Home = () => {
     speed: 2000,
     autoplaySpeed: 5000,
     cssEase: "linear",
+    rows: 2,
   };
 
 
@@ -65,138 +66,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="slider-container brand-slider">
-            <Slider {...settings} className=''>
-              <div>
-                <div
-                  className="col slick-slide slick-cloned"
-                  data-slick-index={1}
-                  aria-hidden="true"
-                  style={{ width: 250 }}
-                  tabIndex={-1}
-                >
-                  <div className="brand-item">
-                    <a href='#' tabIndex={-1} className='text-center text-light'>
-                      <img
-                        className="w-25"
-                        src="assets/img/client/client1.png"
-                        alt="China Communication & Construction Ltd. (CCCC)"
-                      />
-                      <p className="font-weight-bold">
-                        China Communication &amp; Construction Ltd. (CCCC)
-                      </p>
-                    </a>
 
-                  </div>
-                </div>
-              </div>
-              <div>
-                <div
-                  className="col slick-slide slick-cloned"
-                  data-slick-index={2}
-                  aria-hidden="true"
-                  style={{ width: 250 }}
-                  tabIndex={-1}
-                >
-                  <div className="brand-item">
-                    <a href='#' tabIndex={-1} className='text-center text-light'>
-                      <img
-                        className="w-25"
-                        src="assets/img/client/client2.png"
-                        alt="Bangladesh Bridge Authority (BBA)"
-                      />
-                      <p className="font-weight-bold">Bangladesh Bridge Authority (BBA)</p>
-                    </a>
-
-                  </div>
-                </div>
-              </div>
-              <div>
-                <div
-                  className="col slick-slide slick-cloned"
-                  data-slick-index={3}
-                  aria-hidden="true"
-                  style={{ width: 250 }}
-                  tabIndex={-1}
-                >
-                  <div className="brand-item">
-                    <a href='#' tabIndex={-1} className='text-center text-light'>
-                      <img
-                        className="w-25"
-                        src="assets/img/client/client3.png"
-                        alt="SS Power Plant"
-                      />
-                      <p className="font-weight-bold">SS Power Plant</p>
-                    </a>
-
-                  </div>
-                </div>
-              </div>
-              <div>
-                <div
-                  className="col slick-slide slick-cloned"
-                  data-slick-index={4}
-                  aria-hidden="true"
-                  style={{ width: 250 }}
-                  tabIndex={-1}
-                >
-                  <div className="brand-item">
-                    <a href='#' tabIndex={-1} className='text-center text-light'>
-                      <img
-                        className="w-25"
-                        src="assets/img/client/client4.png"
-                        alt="Rupayan City,ctg"
-                      />
-                      <p className="font-weight-bold">Rupayan City,ctg</p>
-                    </a>
-
-                  </div>
-                </div>
-              </div>
-              <div>
-                <div
-                  className="col slick-slide slick-cloned"
-                  data-slick-index={5}
-                  aria-hidden="true"
-                  style={{ width: 250 }}
-                  tabIndex={-1}
-                >
-                  <div className="brand-item">
-                    <a href='#' tabIndex={-1} className='text-center text-light'>
-                      <img
-                        className="w-25"
-                        src="assets/img/client/client5.png"
-                        alt="Radisson Blu, Chittagong"
-                      />
-                      <p className="font-weight-bold">Radisson Blu, Chittagong</p>
-                    </a>
-
-                  </div>
-                </div>
-              </div>
-              <div>
-                <div
-                  className="col slick-slide slick-cloned"
-                  data-slick-index={6}
-                  aria-hidden="true"
-                  style={{ width: 250 }}
-                  tabIndex={-1}
-                >
-                  <div className="brand-item">
-                    <a href='#' tabIndex={-1} className='text-center text-light'>
-                      <img
-                        className="w-25"
-                        src="assets/img/client/client6.png"
-                        alt="National Bank"
-                      />
-                      <p className="font-weight-bold">National Bank</p>
-                    </a>
-
-                  </div>
-                </div>
-              </div>
-            </Slider>
-          </div>
 
 
 
@@ -838,7 +708,7 @@ const Home = () => {
               <div className="col-lg-7 col-md-8 col-sm-10">
                 <div className="section-title-two text-center mb-50">
                   <span className="title-tag">Portfolio</span>
-                  <h2 className="title">We Have Done So Much Stuffs </h2>
+                  <h2 className="title">Completed projects </h2>
                 </div>
               </div>
             </div>
@@ -859,7 +729,7 @@ const Home = () => {
                   <div className="portfolio-content">
                     <span className="category">Service/Landscaping </span>
                     <h6 className="title" style={{ height: "130px" }}>
-                      <a href="">Landscaping of Bangabandhu Tunnel</a>
+                      <a href="">Landscaping of Karnaphuli Tunnel</a>
                     </h6>
                     {/* <p>
                         Today, the term Information Technology (IT) has
@@ -885,7 +755,7 @@ const Home = () => {
                     <span className="category">Service/Landscaping </span>
                     <h5 className="title" style={{ height: "130px" }}>
                       <a href="">
-                        Boundary Fencing at Bangabandhu Tunnel Project
+                        Boundary Fencing at Karnaphuli Tunnel Project
                       </a>
                     </h5>
                     {/* <p>
@@ -911,7 +781,7 @@ const Home = () => {
                   <div className="portfolio-content">
                     <span className="category">Service/Road Marking </span>
                     <h5 className="title" style={{ height: "130px" }}>
-                      <a href="">Road Marking</a>
+                      <a href="">Road Marking of Karnaphuli Tunnel</a>
                     </h5>
                     {/* <p>
                         Today, the term Information Technology (IT) has
@@ -927,9 +797,59 @@ const Home = () => {
                 <div className="portfolio-item-two mt-30">
                   <div
                     className="portfolio-img"
-                  // style={{
-                  //   backgroundImage: "url(assets/img/portfolio/11.jpg)",
-                  // }}
+                    style={{
+                      backgroundImage: "url(assets/img/road-marking/sasac-1.jpg)",
+                    }}
+                  >
+                    {" "}
+                  </div>
+                  <div className="portfolio-content">
+                    <span className="category">Service/Road Marking </span>
+                    <h5 className="title" style={{ height: "130px" }}>
+                      <a href="">Road Marking of SASEC</a>
+                    </h5>
+                    {/* <p>
+                        Today, the term Information Technology (IT) has
+                        ballooned to encompass many aspects of computing
+                      </p> */}
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-lg-4 col-md-6 col-sm-10 wow fadeInUp"
+                data-wow-delay="0.6s"
+              >
+                <div className="portfolio-item-two mt-30">
+                  <div
+                    className="portfolio-img"
+                    style={{
+                      backgroundImage: "url(assets/img/landscaping/ss-1.jpg)",
+                    }}
+                  >
+                    {" "}
+                  </div>
+                  <div className="portfolio-content">
+                    <span className="category">Service/Landscaping </span>
+                    <h5 className="title" style={{ height: "130px" }}>
+                      <a href="">Landscaping of SS Power Plant</a>
+                    </h5>
+                    {/* <p>
+                        Today, the term Information Technology (IT) has
+                        ballooned to encompass many aspects of computing
+                      </p> */}
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-lg-4 col-md-6 col-sm-10 wow fadeInUp"
+                data-wow-delay="0.6s"
+              >
+                <div className="portfolio-item-two mt-30">
+                  <div
+                    className="portfolio-img"
+                    style={{
+                      backgroundImage: "url(assets/img/service-img/Outer-ring-road.jpg)",
+                    }}
                   >
                     {" "}
                   </div>
@@ -992,8 +912,7 @@ const Home = () => {
                     <h5 className="title" style={{ height: "130px" }}>
                       <a href="">
                         Air-Conditioner, Water Heater, Furniture, Anti-Skid,
-                        Electronics Goods etc. Supply at Bangabandhu Sheikh
-                        Mujibur Rahman Tunnel Project{" "}
+                        Electronics Goods etc. Supply at Karnaphuli Tunnel Project{" "}
                       </a>
                     </h5>
                     {/* <p>
@@ -1003,6 +922,341 @@ const Home = () => {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+        <section className="portfolio-area section-gap">
+          <div className="container-fluid">
+            <div className="row justify-content-center">
+              <div className="col-lg-7 col-md-8 col-sm-10">
+                <div className="section-title-two text-center mb-50">
+                  <span className="title-tag">Clients</span>
+                  <h2 className="title">Our Valued Clients </h2>
+                </div>
+              </div>
+            </div>
+            <div className="slider-container brand-slider">
+              <Slider {...settings} className=''>
+                <div>
+                  <div
+                    className="col slick-slide slick-cloned"
+                    data-slick-index={1}
+                    aria-hidden="true"
+                    style={{ width: 250 }}
+                    tabIndex={-1}
+                  >
+                    <div className="brand-item">
+                      <a href='#' tabIndex={-1} className='text-center  textColor'>
+                        <img
+                          className="w-50"
+                          src="assets/img/client/client1.png"
+                          alt="China Communication & Construction Ltd. (CCCC)"
+                        />
+                        <p className="font-weight-bold">
+                          China Communication &amp; Construction Ltd. (CCCC)
+                        </p>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div
+                    className="col slick-slide slick-cloned"
+                    data-slick-index={2}
+                    aria-hidden="true"
+                    style={{ width: 250 }}
+                    tabIndex={-1}
+                  >
+                    <div className="brand-item">
+                      <a href='#' tabIndex={-1} className='text-center  textColor'>
+                        <img
+                          className="w-50"
+                          src="assets/img/client/client2.png"
+                          alt="Bangladesh Bridge Authority (BBA)"
+                        />
+                        <p className="font-weight-bold">Bangladesh Bridge Authority (BBA)</p>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div
+                    className="col slick-slide slick-cloned"
+                    data-slick-index={3}
+                    aria-hidden="true"
+                    style={{ width: 250 }}
+                    tabIndex={-1}
+                  >
+                    <div className="brand-item">
+                      <a href='#' tabIndex={-1} className='text-center  textColor'>
+                        <img
+                          className="w-50"
+                          src="assets/img/client/client3.png"
+                          alt="SS Power Plant"
+                        />
+                        <p className="font-weight-bold">SS Power Plant</p>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div
+                    className="col slick-slide slick-cloned"
+                    data-slick-index={4}
+                    aria-hidden="true"
+                    style={{ width: 250 }}
+                    tabIndex={-1}
+                  >
+                    <div className="brand-item">
+                      <a href='#' tabIndex={-1} className='text-center textColor'>
+                        <img
+                          className="w-50"
+                          src="assets/img/client/client4.png"
+                          alt="Rupayan City,ctg"
+                        />
+                        <p className="font-weight-bold">Rupayan City,ctg</p>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div
+                    className="col slick-slide slick-cloned"
+                    data-slick-index={5}
+                    aria-hidden="true"
+                    style={{ width: 250 }}
+                    tabIndex={-1}
+                  >
+                    <div className="brand-item">
+                      <a href='#' tabIndex={-1} className='text-center  textColor'>
+                        <img
+                          className="w-50"
+                          src="assets/img/client/client5.png"
+                          alt="Radisson Blu, Chittagong"
+                        />
+                        <p className="font-weight-bold">Radisson Blu, Chittagong</p>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div
+                    className="col slick-slide slick-cloned"
+                    data-slick-index={6}
+                    aria-hidden="true"
+                    style={{ width: 250 }}
+                    tabIndex={-1}
+                  >
+                    <div className="brand-item">
+                      <a href='#' tabIndex={-1} className='text-center  textColor'>
+                        <img
+                          className="w-50"
+                          src="assets/img/client/client6.png"
+                          alt="National Bank"
+                        />
+                        <p className="font-weight-bold">National Bank</p>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div
+                    className="col slick-slide slick-cloned"
+                    data-slick-index={7}
+                    aria-hidden="true"
+                    style={{ width: 250 }}
+                    tabIndex={-1}
+                  >
+                    <div className="brand-item">
+                      <a href='#' tabIndex={-1} className='text-center  textColor'>
+                        <img
+                          className="w-50"
+                          src="assets/img/client/client7.png"
+                          alt="National Bank"
+                        />
+                        <p className="font-weight-bold">Local Government Engineering Department (LGED)</p>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div
+                    className="col slick-slide slick-cloned"
+                    data-slick-index={8}
+                    aria-hidden="true"
+                    style={{ width: 250 }}
+                    tabIndex={-1}
+                  >
+                    <div className="brand-item">
+                      <a href='#' tabIndex={-1} className='text-center  textColor'>
+                        <img
+                          className="w-50"
+                          src="assets/img/client/client8.png"
+                          alt="World Vision"
+                        />
+                        <p className="font-weight-bold">World Vision</p>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div
+                    className="col slick-slide slick-cloned"
+                    data-slick-index={9}
+                    aria-hidden="true"
+                    style={{ width: 250 }}
+                    tabIndex={-1}
+                  >
+                    <div className="brand-item">
+                      <a href='#' tabIndex={-1} className='text-center  textColor'>
+                        <img
+                          className="w-50"
+                          src="assets/img/client/client9.png"
+                          alt="Chittagong WASA"
+                        />
+                        <p className="font-weight-bold">Chittagong WASA</p>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div
+                    className="col slick-slide slick-cloned"
+                    data-slick-index={10}
+                    aria-hidden="true"
+                    style={{ width: 250 }}
+                    tabIndex={-1}
+                  >
+                    <div className="brand-item">
+                      <a href='#' tabIndex={-1} className='text-center  textColor'>
+                        <img
+                          className="w-50"
+                          src="assets/img/client/client10.png"
+                          alt="Concord Group"
+                        />
+                        <p className="font-weight-bold">Concord Group</p>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div
+                    className="col slick-slide slick-cloned"
+                    data-slick-index={11}
+                    aria-hidden="true"
+                    style={{ width: 250 }}
+                    tabIndex={-1}
+                  >
+                    <div className="brand-item">
+                      <a href='#' tabIndex={-1} className='text-center textColor'>
+                        <img
+                          className="w-50"
+                          src="assets/img/client/client11.png"
+                          alt="Urban Design & Development Ltd. (UDDL)"
+                        />
+                        <p className="font-weight-bold">Urban Design & Development Ltd. (UDDL)</p>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div
+                    className="col slick-slide slick-cloned"
+                    data-slick-index={12}
+                    aria-hidden="true"
+                    style={{ width: 250 }}
+                    tabIndex={-1}
+                  >
+                    <div className="brand-item">
+                      <a href='#' tabIndex={-1} className='text-center  textColor'>
+                        <img
+                          className="w-50"
+                          src="assets/img/client/client6.png"
+                          alt="National Bank"
+                        />
+                        <p className="font-weight-bold">National Bank</p>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div
+                    className="col slick-slide slick-cloned"
+                    data-slick-index={13}
+                    aria-hidden="true"
+                    style={{ width: 250 }}
+                    tabIndex={-1}
+                  >
+                    <div className="brand-item">
+                      <a href='#' tabIndex={-1} className='text-center  textColor'>
+                        <img
+                          className="w-50"
+                          src="assets/img/client/client12.png"
+                          alt="National Bank"
+                        />
+                        <p className="font-weight-bold"></p>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div
+                    className="col slick-slide slick-cloned"
+                    data-slick-index={14}
+                    aria-hidden="true"
+                    style={{ width: 250 }}
+                    tabIndex={-1}
+                  >
+                    <div className="brand-item">
+                      <a href='#' tabIndex={-1} className='text-center  textColor'>
+                        <img
+                          className="w-50"
+                          src="assets/img/client/sasec.jpg"
+                          alt="South Asia Subregional
+Economic Cooperation"
+                        />
+                        <p className="font-weight-bold">South Asia Subregional
+                          Economic Cooperation</p>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+                {/* <div>
+                  <div
+                    className="col slick-slide slick-cloned"
+                    data-slick-index={6}
+                    aria-hidden="true"
+                    style={{ width: 250 }}
+                    tabIndex={-1}
+                  >
+                    <div className="brand-item">
+                      <a href='#' tabIndex={-1} className='text-center  textColor'>
+                        <img
+                          className="w-50"
+                          src="assets/img/client/client6.png"
+                          alt="National Bank"
+                        />
+                        <p className="font-weight-bold">National Bank</p>
+                      </a>
+
+                    </div>
+                  </div>
+                </div> */}
+              </Slider>
             </div>
           </div>
         </section>

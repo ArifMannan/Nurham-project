@@ -23,7 +23,7 @@ const Escalator = () => {
                             >
                                 <div className="img-one" style={{ height: "100%", width: "100%" }}>
                                     <img
-                                        src="assets/img/service-img/elevatorservicepic2.jpg"
+                                        src="assets/img/elevator/elevator2.jpg"
                                         alt="Image"
                                     />
                                 </div>
@@ -39,7 +39,7 @@ const Escalator = () => {
                                     }}
                                 >
                                     <img
-                                        src="assets/img/service-img/elevatorservicepic1.jpg"
+                                        src="assets/img/elevator/elevator1.jpg"
                                         alt="Image"
                                     />
                                 </div>
@@ -143,7 +143,8 @@ const Escalator = () => {
                                 </div>
                                 <div className="service-support-btn">
                                     <p>Make A Call</p>
-                                    <span>+88 01877-363621</span>
+
+                                    <span> <a className='text-light' href="tel:+8801877363621"> +88 01877-363621</a></span>
                                     <i className="fal fa-phone" />
                                 </div>
                             </div>
